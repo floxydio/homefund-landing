@@ -1,6 +1,7 @@
 <script></script>
 
 <template>
+  <div class="container">
   <nav class="navbar navbar-expand-lg bg-body-tertiary">
     <div class="container-fluid">
       <a class="navbar-brand" href="#">HomeFunding ID</a>
@@ -23,10 +24,18 @@
             <a class="nav-link active" aria-current="page" href="#">Artikel</a>
           </li>
         </ul>
-          <button class="btn btn-outline-success rounded-pill" type="submit">Download</button>
+          <button class="btn btn-outline-light rounded-pill" type="submit">Download</button>
       </div>
     </div>
   </nav>
+</div>
 </template>
 
-<style scoped></style>
+<style scoped>
+.container {
+  background: linear-gradient(284.5deg, #4169e1 0%, #5b84ff 101.21%);
+}
+.navbar {
+    background: linear-gradient(284.5deg, #4169e1 0%, #5b84ff 101.21%);
+  }
+</style>

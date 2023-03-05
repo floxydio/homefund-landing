@@ -2,10 +2,10 @@
 
 <template>
   <div class="row justify-content-center">
-    <div class="col-lg-10 px-0">
+    <div class="col-lg-10 mt-2">
       <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid">
-          <a class="navbar-brand text-light" href="#">HomeFunding ID</a>
+        <div class="container-fluid ps-0">
+          <a class="navbar-brand text-light ps-2" href="#">HomeFunding ID</a>
           <button
             class="navbar-toggler"
             type="button"
@@ -60,6 +60,11 @@
   background: linear-gradient(284.5deg, #4169e1 0%, #5b84ff 101.21%);
 }
 
+.container-fluid {
+  margin-left: -6px;
+  padding-right: 100px;
+}
+
 .navbar-brand {
   font-size: 20px;
   line-height: 22px;
@@ -76,5 +81,6 @@
 
 .nav-item .download {
   width: 160px;
+  margin-top: 4px;
 }
 </style>

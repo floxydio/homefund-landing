@@ -31,7 +31,7 @@
             <img src="../../../img/vector.png"/>
           </div>
         </div>
-        <div class="mt-4">
+        <div class="my-4">
           <div class="contact d-flex justify-content-center gap-5 text-white">
             <div class="kontak d-flex">
                 <p>Kontak Kami</p>

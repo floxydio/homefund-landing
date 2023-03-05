@@ -1,17 +1,34 @@
 <script></script>
 
 <template>
-  <div class="container">
-  <nav class="navbar navbar-expand-lg bg-body-tertiary">
-    <div class="container-fluid">
+  <div class="row justify-content-center">
+    <div class="col-lg-10 px-0">
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
           <a class="navbar-brand text-light" href="#">HomeFunding ID</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+          <div
+            class="collapse navbar-collapse justify-content-end"
+            id="navbarSupportedContent"
+          >
             <ul class="navbar-nav mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active text-light" aria-current="page" href="#">Beranda</a>
+                <a
+                  class="nav-link active text-light"
+                  aria-current="page"
+                  href="#"
+                  >Beranda</a
+                >
               </li>
               <li class="nav-item">
                 <a class="nav-link text-light" href="#">Product</a>
@@ -23,7 +40,10 @@
                 <a class="nav-link text-light" href="#">Artikel</a>
               </li>
               <li class="nav-item">
-                <button class="download btn btn-sm btn-outline-light rounded-pill" type="submit">
+                <button
+                  class="download btn btn-sm btn-outline-light rounded-pill"
+                  type="submit"
+                >
                   Download
                 </button>
               </li>

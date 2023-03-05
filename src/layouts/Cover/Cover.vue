@@ -14,7 +14,7 @@
             <p>Features</p>
         </button>
         <div class="vector">
-            <img src="../../../public/img/vector.png"  class="" alt="">
+            <img src="../../../img/vector.png"  class="" alt="">
         </div>
         <div class="contact">
             <div class="kontak-kami d-flex">

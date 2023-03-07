@@ -1,8 +1,151 @@
+/* Advantage */
+h2 {
+  margin-top: 100px;
+  margin-bottom: 15px;
+  font-size: 50px;
+  text-align: center;
+  font-weight: bold;
+  margin-left: 50px;
+  font-family: Poppins;
+}
+.advantageimg {
+  margin-bottom: 30px;
+  margin-left: 60px;
+  width: 139px;
+  height: 139px;
+}
+.p1 {
+  font-size: 15px;
+  margin-top: 50px;
+  font-family: Poppins;
+}
+.t2 {
+  font-family: Poppins;
+  font-weight: bold;
+}
+/* End Advantage */
+
+/* Product */
+.row1 {
+  margin-top: 100px;
+  margin-left: 50px;
+}
+.t1 {
+  font-size: 45px;
+  font-weight: bold;
+  font-family: Poppins;
+  margin-bottom: 50px;
+}
+.a1 {
+  font-size: 15px;
+  font-family: Poppins;
+}
+.imggroup {
+  margin-left: 70px;
+}
+.p2 {
+  font-family: Poppins;
+}
+.a2 {
+  font-family: Poppins;
+}
+/* End Product */
+
+/* Article */
+.ar1 {
+  margin-top: 100px;
+  margin-bottom: 47px;
+  font-size: 45px;
+  margin-left: 140px;
+  font-family: Poppins;
+  font-weight: bold;
+}
+.arimg {
+  margin-bottom: 50px;
+}
+.row2 {
+  margin-top:50px;
+  margin-left:108px
+}
+/* End Article */
+
+/* Tips */
+.container1 {
+  box-shadow: 0 3px 20px rgba(0, 0, 0, 0.3);
+  border-radius: 12px;
+  margin-top: -80px;
+  background-color: white;
+  padding: 30px;
+  opacity: 1;
+}
+.jumbotron {
+  margin-top: 156px;
+  background-image: url(img/background.png);
+  height: 439px;
+  width: 1440px;
+  text-align: center;
+  position: relative;
+}
+.info-panel {
+  border-radius: 12px;
+  margin-bottom: -20px;
+  background-color: white;
+  padding: 30px;
+}
+/* End Tips */
 @media only screen and (max-width: 680px) {
-  h4 {
-    text-align: center;
+  h2 {
+    text-align: left;
+  }
+  .t1 {
+    margin-top: 50px;
+  }
+  .t2 {
+    text-align: left;
+    margin-left: 40px;
   }
   .p1 { 
-    margin-left: 64px;
+    margin-left: 40px;
+    margin-top: 25px;
   }
+  .p2 {
+    font-family: Poppins;
+    font-size: 15px;
+    margin-bottom: 30px;
+  }
+  .a2 {
+    font-family: Poppins;
+  }
+  .advantageimg {
+    margin-left: 140px;
+    margin-top: 50px;
+  }
+  .imggroup {
+    width: 310px;
+    margin-left: 0px;
+  }
+  .ar1 {
+    margin-left: 65px;
+  }
+  .arimg {
+    margin-left: -70px;
+    margin-bottom: 35px;
+    margin-top: -30px;
+    width: 290px;
+    height: 201px
+  }
+  .tittle_article {
+    margin-left: -70px;
+    margin-bottom: 15px;
+    font-size: 25px;
+  }
+  .p3 {
+    margin-left: -70px;
+    font-size: 15px;
+    margin-bottom: 50px;
+  }
+  .a1 {
+    margin-left: -70px;
+  }
+
 }

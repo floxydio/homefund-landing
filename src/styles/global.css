@@ -92,6 +92,39 @@ h2 {
   background-color: white;
   padding: 30px;
 }
+.cont1 {
+  background-color: white;
+  border-radius: 20px;
+  padding-bottom: 300px;
+  padding-top: 60px;
+  box-shadow: 0 3px 20px rgba(0, 0, 0, 0.3);
+  width: 456px;
+  height: 495px;
+  margin-right: 20px;
+  text-align: left;
+  position: relative;top: 30px;
+  
+}
+.title1 {
+  font-size: 35px;
+  margin-left: 30px;
+  text-align: left;
+}
+.title2 {
+  font-size: 25px;
+  margin-left: 30px;
+  margin-bottom: 70px;
+  text-align: left;
+}
+.title3 {
+  font-size: 15px;
+  margin-left: 30px;
+  text-align: left;
+}
+.link1 {
+  font-size: 15px;
+  margin-left: 250px;
+}
 /* End Tips */
 @media only screen and (max-width: 680px) {
   h2 {
@@ -147,5 +180,4 @@ h2 {
   .a1 {
     margin-left: -70px;
   }
-
 }

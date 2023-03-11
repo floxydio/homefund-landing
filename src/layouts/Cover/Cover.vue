@@ -4,19 +4,19 @@
   <div class="main">
     <div class="container">
       <div class="row justify-content-between">
-        <div class="col-lg-5">
+        <div class="col-lg-5 ">
           <h1 class="title">Investasi Rumah dan Ruko</h1>
           <p class="text">
             HomeFunding ID adalah aplikasi investasi berbasis crowdfunding untuk investasi rumah dan bisnis untuk semua orang dengan start invest yang rendah serta periode imbal hasil yang cepat. Solusi terbaik untuk memulai investasi properti kamu.
           </p>
-          <div class="col-lg-9 d-flex mt-4 justify-content-center">
+          <div class="col-lg-9">
               <button
-              class="download btn btn-light rounded-pill"
+              class="download btn btn-light rounded-pill space"
               type="submit" style="color: #4169E1">
               Get it now
             </button>
             <button
-              class="download ms-4 mb-4 btn btn-outline-light rounded-pill"
+              class="download btn btn-outline-light rounded-pill space"
               type="submit">
               Features
             </button>
@@ -30,15 +30,15 @@
         <div class="my-4">
           <div class="contact d-flex justify-content-center gap-5 text-white">
             <div class="kontak d-flex">
-                <p>Kontak Kami</p>
+                <p class="text-white">Kontak Kami</p>
                 <i class="bi bi-arrow-right ms-2"></i>
             </div>
             <div class="solusi d-flex">
-                <p>Solusi Kami</p>
+                <p class="text-white">Solusi Kami</p>
                 <i class="bi bi-arrow-right ms-2"></i>
             </div>
             <div class="cerita d-flex">
-                <p>Cerita Kami</p>
+                <p class="text-white">Cerita Kami</p>
                 <i class="bi bi-arrow-right ms-2"></i>
             </div>
           </div>
@@ -68,6 +68,11 @@
   line-height: 75px;
   color: #ffffff;
   margin-bottom: 30px;
+}
+
+.space {
+  margin-top: 40px;
+  margin-right:20px;
 }
 
 .text {
@@ -104,6 +109,6 @@
 }
 
 @media screen and (max-width: 768) {
-  
+
 }
 </style>

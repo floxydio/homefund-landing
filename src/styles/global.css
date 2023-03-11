@@ -1,3 +1,33 @@
+/* About */
+.titleabout {
+  width: 189px;
+  height: 83px;
+  font-weight: 275;
+  font-size: 55px;
+  line-height: 82px;
+  color: #707070;
+  margin-top: -10px;
+}
+.titleabout2 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 150;
+  font-size: 55px;
+  line-height: 82px;
+  color: #707070;
+}
+p {
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 26px;
+
+  color: #707070;
+}
+/* End About */
+
 /* Advantage */
 h2 {
   margin-top: 100px;
@@ -19,7 +49,7 @@ h2 {
   margin-top: 50px;
   font-family: Poppins;
 }
-.t2 {
+.juduladv {
   font-family: Poppins;
   font-weight: bold;
 }
@@ -46,7 +76,7 @@ h2 {
 .p2 {
   font-family: Poppins;
 }
-.a2 {
+.juduladv {
   font-family: Poppins;
 }
 /* End Product */
@@ -82,7 +112,6 @@ h2 {
   margin-top: 156px;
   background-image: url(img/background.png);
   height: 439px;
-  width: 1440px;
   text-align: center;
   position: relative;
 }
@@ -103,7 +132,6 @@ h2 {
   margin-right: 20px;
   text-align: left;
   position: relative;top: 30px;
-  
 }
 .title1 {
   font-size: 35px;
@@ -127,6 +155,7 @@ h2 {
 }
 /* End Tips */
 @media only screen and (max-width: 680px) {
+  
   h2 {
     text-align: left;
   }
@@ -146,8 +175,9 @@ h2 {
     font-size: 15px;
     margin-bottom: 30px;
   }
-  .a2 {
+  .juduladv {
     font-family: Poppins;
+    margin-left: 40px;
   }
   .advantageimg {
     margin-left: 140px;
@@ -177,7 +207,13 @@ h2 {
     font-size: 15px;
     margin-bottom: 50px;
   }
-  .a1 {
+  .a3 {
     margin-left: -70px;
+    margin-bottom: 100px;
+  }
+  .cont1 {
+    position: absolute;
+    margin-left: 50px;
+    background-size: fixed;
   }
 }

@@ -4,10 +4,7 @@
     <main class="main">
         <h1 class="title position-absolute">Investasi Rumah dan Ruko</h1>
         <p class="text position-absolute">
-            Lorem ipsum dolor sit amet consectetur. Lobortis pulvinar tortor magna
-            gravida duis. In et condimentum nullam fringilla sed nisl semper sit.
-            Laoreet in augue porta nec sollicitudin sit risus egestas. Sed et ipsum
-            sagittis dictumst eu proin urna. Tellus massa pharetra turpis mauris.
+            HomeFunding ID adalah aplikasi investasi berbasis crowdfunding untuk investasi rumah dan bisnis untuk semua orang dengan start invest yang rendah serta periode imbal hasil yang cepat. Solusi terbaik untuk memulai investasi properti kamu.
         </p>
         <button class="btn get-now d-flex align-middle justify-content-center">Get it now</button>
         <button class="features">

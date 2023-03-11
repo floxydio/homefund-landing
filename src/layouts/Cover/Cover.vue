@@ -50,7 +50,7 @@
 
 <style scoped>
 .main {
-  background: linear-gradient(284.5deg, #4169e1 0%, #5b84ff 101.21%);
+  background: linear-gradient(284.5deg, #4169E1 0%, #5B84FF 101.21%);
 }
 .row {
   padding-block: 40px;
@@ -101,5 +101,9 @@
 
 .vector {
   height: 455px;
+}
+
+@media screen and (max-width: 768) {
+  
 }
 </style>

@@ -1,3 +1,14 @@
+/* Navbar */
+.navbar {
+  position: relative;
+  z-index: 1;
+}
+.navbar {
+  background-image: linear-gradient(to left, #4169E1,#5B84FF);
+}
+
+/* End Navbar */
+
 /* About */
 .titleabout {
   width: 189px;
@@ -9,7 +20,6 @@
   margin-top: -10px;
 }
 .titleabout2 {
-  font-family: "Poppins";
   font-style: normal;
   font-weight: 150;
   font-size: 55px;
@@ -17,8 +27,6 @@
   color: #707070;
 }
 p {
-
-  font-family: "Poppins";
   font-style: normal;
   font-weight: 400;
   font-size: 17px;
@@ -36,7 +44,6 @@ h2 {
   text-align: center;
   font-weight: bold;
   margin-left: 50px;
-  font-family: Poppins;
 }
 .advantageimg {
   margin-bottom: 30px;
@@ -47,11 +54,11 @@ h2 {
 .p1 {
   font-size: 15px;
   margin-top: 50px;
-  font-family: Poppins;
+  text-align: left;
 }
 .juduladv {
-  font-family: Poppins;
   font-weight: bold;
+  text-align: left;
 }
 /* End Advantage */
 
@@ -63,21 +70,13 @@ h2 {
 .t1 {
   font-size: 45px;
   font-weight: bold;
-  font-family: Poppins;
   margin-bottom: 50px;
 }
 .a1 {
   font-size: 15px;
-  font-family: Poppins;
 }
 .imggroup {
   margin-left: 70px;
-}
-.p2 {
-  font-family: Poppins;
-}
-.juduladv {
-  font-family: Poppins;
 }
 /* End Product */
 
@@ -87,7 +86,6 @@ h2 {
   margin-bottom: 47px;
   font-size: 45px;
   margin-left: 140px;
-  font-family: Poppins;
   font-weight: bold;
 }
 .arimg {
@@ -128,7 +126,7 @@ h2 {
   padding-top: 60px;
   box-shadow: 0 3px 20px rgba(0, 0, 0, 0.3);
   width: 456px;
-  height: 495px;
+  height: 470px;
   margin-right: 20px;
   text-align: left;
   position: relative;top: 30px;
@@ -155,7 +153,21 @@ h2 {
 }
 /* End Tips */
 @media only screen and (max-width: 680px) {
-  
+
+.nav-link {
+    text-transform: uppercase;
+    margin-right: 30px;
+}
+
+.nav-link:hover::after {
+    content: '';
+    display: block;
+    border-bottom: 3px solid #0b63dc;
+    width: 50%;
+    margin: auto;
+    padding-bottom: 3px;
+    margin-bottom: -8px;
+}
   h2 {
     text-align: left;
   }
@@ -171,12 +183,10 @@ h2 {
     margin-top: 25px;
   }
   .p2 {
-    font-family: Poppins;
     font-size: 15px;
     margin-bottom: 30px;
   }
   .juduladv {
-    font-family: Poppins;
     margin-left: 40px;
   }
   .advantageimg {

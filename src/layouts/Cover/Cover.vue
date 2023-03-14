@@ -54,6 +54,7 @@
 }
 .row {
   padding-block: 40px;
+  /*  */
 }
 
 .col-lg-5 {

@@ -1,15 +1,119 @@
+
 /* Navbar */
 .navbar {
   position: relative;
-  z-index: 1;
 }
 .navbar {
   background-image: linear-gradient(to left, #4169E1,#5B84FF);
 }
+.navbar-brand {
+  width: 169px;
+  height: 30px;
+  left: 26px;
+  top: 19px;
 
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 30px;
+  color: #ffffff;
+}
+.navbar-toggler img {
+  width: 32px;
+  height: 17.86px;
+  left: 312px;
+  top: 13px;
+}
+.nav-item {
+  font-size: 15px;
+  text-align: center;
+  margin-left: 20px;
+}
+.nav-link {
+  width: 120%;
+}
+.nav-item .download {
+  width: 140px;
+  margin-top: 4px;
+}
 /* End Navbar */
 
+/* Cover */
+.main {
+  background: linear-gradient(284.5deg, #4169E1 0%, #5B84FF 101.21%);
+}
+.baris1 {
+  padding-block: 40px;
+}
+.kolom1 {
+    align-self: center;
+}
+.title {
+  height: 150px;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 75px;
+  color: #ffffff;
+  margin-bottom: 30px;
+}
+.space {
+  margin-top: 40px; 
+  margin-right:20px;
+}
+.text {
+  width: 670px;
+  height: 69px;
+  left: 156px;
+  top: 326px;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 22px;
+
+  color: rgba(255, 255, 255, 0.7);
+}
+.download {
+    width: 156px;
+    height: 44px;
+}
+.get-now {
+  padding: 5px 40px;
+  gap: 10px;
+  width: 156px;
+  height: 44px;
+  left: 156px;
+  top: 417px;
+  background: #ffffff;
+  border: 1px solid #ffffff;
+  border-radius: 77px;
+}
+.vector {
+  height: 455px;
+}
+/* End Cover */
+
 /* About */
+.titleabout {
+  width: 189px;
+  height: 83px;
+  font-weight: 275;
+  font-size: 55px;
+  line-height: 82px;
+  color: #707070;
+}
+.kolomabout {
+  margin-left: 125px;
+}
+.kolomimg {
+  background-color: #F4F9FF;
+  width: 500px;
+}
+.coverimg {
+  width: 450px;
+  height: 250px;
+}
+.kolombg {
+  background-color: white;
+  width: 450px;
+}
 .titleabout {
   width: 189px;
   height: 83px;
@@ -31,7 +135,6 @@ p {
   font-weight: 400;
   font-size: 17px;
   line-height: 26px;
-
   color: #707070;
 }
 /* End About */
@@ -77,6 +180,9 @@ h2 {
 }
 .imggroup {
   margin-left: 70px;
+}
+.p2 {
+  font-size: 15px;
 }
 /* End Product */
 
@@ -153,21 +259,55 @@ h2 {
 }
 /* End Tips */
 @media only screen and (max-width: 680px) {
-
-.nav-link {
-    text-transform: uppercase;
-    margin-right: 30px;
-}
-
-.nav-link:hover::after {
-    content: '';
+  .nav-item a:not(:first-child) {display: none;}
+  .nav-item a.icon {
+    float: right;
     display: block;
-    border-bottom: 3px solid #0b63dc;
-    width: 50%;
-    margin: auto;
-    padding-bottom: 3px;
-    margin-bottom: -8px;
-}
+  }
+  .nav-item.responsive {position: relative;}
+  .nav-item.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .nav-item.responsive li {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .navbar {
+    height: 68px;
+    background: linear-gradient(271.06deg, #4169e1 -26.94%, #5b84ff 100%);
+  }
+  a .navbar-brand {
+    font-size: 50px;
+  }
+  .navbar-toggler img {
+    width: 32px;
+    height: 17.86px;
+    left: 312px;
+    top: 13px;
+  }
+  .nav-item {
+    font-size: 15px;
+    width: 100px;
+    font-style: normal;
+  }
+  .nav-link {
+    width: 120%;
+  }
+  .about_row {
+    flex-direction: column-reverse;
+  }
+  .cover1 {
+    width: 100%;
+  }
+  .kolom2 {
+    text-align: center;
+  }
+  .text {
+    width: auto;
+  }
   h2 {
     text-align: left;
   }
@@ -176,22 +316,23 @@ h2 {
   }
   .t2 {
     text-align: left;
-    margin-left: 40px;
+    margin-left: 10px;
   }
   .p1 { 
-    margin-left: 40px;
+    margin-left: 10px;
     margin-top: 25px;
   }
   .p2 {
-    font-size: 15px;
     margin-bottom: 30px;
   }
-  .juduladv {
-    margin-left: 40px;
-  }
   .advantageimg {
-    margin-left: 140px;
-    margin-top: 50px;
+    margin-left: 10px;
+  }
+  .titleadv {
+    margin-left: 20px;
+  }
+  .juduladv {
+    margin-left: 10px;
   }
   .imggroup {
     width: 310px;
@@ -199,18 +340,6 @@ h2 {
   }
   .ar1 {
     margin-left: 65px;
-  }
-  .arimg {
-    margin-left: -70px;
-    margin-bottom: 35px;
-    margin-top: -30px;
-    width: 290px;
-    height: 201px
-  }
-  .tittle_article {
-    margin-left: -70px;
-    margin-bottom: 15px;
-    font-size: 25px;
   }
   .p3 {
     margin-left: -70px;
@@ -223,7 +352,11 @@ h2 {
   }
   .cont1 {
     position: absolute;
-    margin-left: 50px;
+    margin-left: 15px;
     background-size: fixed;
+    width: 400px;
+  }
+  .link1 {
+    margin-left: 200px;
   }
 }

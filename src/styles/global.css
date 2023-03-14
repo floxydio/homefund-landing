@@ -1,10 +1,9 @@
-
 /* Navbar */
 .navbar {
   position: relative;
 }
 .navbar {
-  background-image: linear-gradient(to left, #4169E1,#5B84FF);
+  background-image: linear-gradient(to left, #4169e1, #5b84ff);
 }
 .navbar-brand {
   width: 169px;
@@ -39,13 +38,13 @@
 
 /* Cover */
 .main {
-  background: linear-gradient(284.5deg, #4169E1 0%, #5B84FF 101.21%);
+  background: linear-gradient(284.5deg, #4169e1 0%, #5b84ff 101.21%);
 }
 .baris1 {
   padding-block: 40px;
 }
 .kolom1 {
-    align-self: center;
+  align-self: center;
 }
 .title {
   height: 150px;
@@ -56,8 +55,8 @@
   margin-bottom: 30px;
 }
 .space {
-  margin-top: 40px; 
-  margin-right:20px;
+  margin-top: 40px;
+  margin-right: 20px;
 }
 .text {
   width: 670px;
@@ -71,8 +70,6 @@
   color: rgba(255, 255, 255, 0.7);
 }
 .download {
-    width: 156px;
-    height: 44px;
 }
 .get-now {
   padding: 5px 40px;
@@ -103,7 +100,7 @@
   margin-left: 125px;
 }
 .kolomimg {
-  background-color: #F4F9FF;
+  background-color: #f4f9ff;
   width: 500px;
 }
 .coverimg {
@@ -198,8 +195,8 @@ h2 {
   margin-bottom: 50px;
 }
 .row2 {
-  margin-top:50px;
-  margin-left:108px
+  margin-top: 50px;
+  margin-left: 108px;
 }
 /* End Article */
 
@@ -235,7 +232,8 @@ h2 {
   height: 470px;
   margin-right: 20px;
   text-align: left;
-  position: relative;top: 30px;
+  position: relative;
+  top: 30px;
 }
 .title1 {
   font-size: 35px;
@@ -259,12 +257,16 @@ h2 {
 }
 /* End Tips */
 @media only screen and (max-width: 680px) {
-  .nav-item a:not(:first-child) {display: none;}
+  .nav-item a:not(:first-child) {
+    display: none;
+  }
   .nav-item a.icon {
     float: right;
     display: block;
   }
-  .nav-item.responsive {position: relative;}
+  .nav-item.responsive {
+    position: relative;
+  }
   .nav-item.responsive .icon {
     position: absolute;
     right: 0;
@@ -318,7 +320,7 @@ h2 {
     text-align: left;
     margin-left: 10px;
   }
-  .p1 { 
+  .p1 {
     margin-left: 10px;
     margin-top: 25px;
   }

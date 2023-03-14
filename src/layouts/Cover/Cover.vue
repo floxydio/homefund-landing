@@ -22,11 +22,7 @@
             </button>
         </div>
         </div>
-        <div class="col-lg-4 text-center">
-          <div class="vector">
-            <img src="../../../img/vector.png"/>
-          </div>
-        </div>
+        <img src="../../../img/vector.png" width="200"/>
         <div class="my-4">
           <div class="contact d-flex justify-content-center gap-5 text-white">
             <div class="kontak d-flex">

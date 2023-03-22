@@ -97,7 +97,7 @@
   color: #707070;
 }
 .kolomabout {
-  margin-left: 125px;
+  text-align: left;
 }
 .kolomimg {
   background-color: #f4f9ff;
@@ -109,10 +109,8 @@
 }
 .kolombg {
   background-color: white;
-  width: 450px;
 }
 .titleabout {
-  width: 189px;
   height: 83px;
   font-weight: 275;
   font-size: 55px;
@@ -165,7 +163,7 @@ h2 {
 /* Product */
 .row1 {
   margin-top: 100px;
-  margin-left: 50px;
+  margin-left: 20px;
 }
 .t1 {
   font-size: 45px;
@@ -255,8 +253,32 @@ h2 {
   font-size: 15px;
   margin-left: 250px;
 }
+.about_row {
+  margin-left: 70px;
+}
 /* End Tips */
 @media only screen and (max-width: 680px) {
+  .about_row {
+    margin-left: 0px;
+  }
+  #product {
+  }
+  html,
+  body {
+    max-width: 100%;
+  }
+  #navbarSupportedContent {
+    text-align: center;
+  }
+
+  .nav-item {
+    margin-right: 50px;
+    margin-top: 10px;
+  }
+  .btn_nav {
+    width: 100%;
+  }
+
   .nav-item a:not(:first-child) {
     display: none;
   }
@@ -264,20 +286,20 @@ h2 {
     float: right;
     display: block;
   }
-  .nav-item.responsive {
+  /* .nav-item.responsive {
     position: relative;
   }
   .nav-item.responsive .icon {
     position: absolute;
     right: 0;
     top: 0;
-  }
-  .nav-item.responsive li {
+  } */
+  /* .nav-item.responsive li {
     float: none;
     display: block;
     text-align: left;
-  }
-  .navbar {
+  } */
+  /* .navbar {
     height: 68px;
     background: linear-gradient(271.06deg, #4169e1 -26.94%, #5b84ff 100%);
   }
@@ -294,11 +316,12 @@ h2 {
     font-size: 15px;
     width: 100px;
     font-style: normal;
-  }
-  .nav-link {
+  } */
+  /* .nav-link {
     width: 120%;
-  }
+  } */
   .about_row {
+    width: 100%;
     flex-direction: column-reverse;
   }
   .cover1 {

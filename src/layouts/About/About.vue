@@ -11,8 +11,8 @@
         withdraw setelah 6 bulan lewat.
       </p>
     </div>
-    <div class="col-lg-5">
-      <img src="../../../img/Image.png" />
+    <div class="col-lg-5" style="margin-top: 50px;">
+    <img src="../../../img/Image.png" />
     </div>
   </div>
 </template>

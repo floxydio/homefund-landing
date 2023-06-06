@@ -69,8 +69,8 @@
 
   color: rgba(255, 255, 255, 0.7);
 }
-.download {
-}
+/* .download {
+} */
 .get-now {
   padding: 5px 40px;
   gap: 10px;
@@ -257,12 +257,72 @@ h2 {
   margin-left: 70px;
 }
 /* End Tips */
+
+/* Critic */
+.card-body {
+  margin-top: 100px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+.judulcritic {
+  text-align: center;
+  font-size: 50px;
+  margin-bottom: 60px;
+}
+.line-3 {
+  width: 672px;
+}
+.tabelisi {
+  width: 480px;
+  height: 45px;
+  border-radius: 5px;
+}
+.tabelisiemail {
+  width: 480px;
+  height: 45px;
+  border-radius: 5px;
+}
+.submit {
+  color: #fff;
+  transition: all 0.3s;
+  padding: 10px 20px;
+  background-color: #2979FF;
+  border: 0.125rem solid transparent;
+  width: 166px;
+  border-radius: 5px;
+}
+.kolomkomen {
+  height: 155px;
+  width: 1127px;
+  border-radius: 5px;
+  margin-left: -5px;
+}
+.komenform {
+  margin-top: 50px;
+}
+.kolomkritik {
+  float: left;
+  width: 55%;
+  padding: 5px;
+}
+
+.bintang {
+  color: red;
+}
+.form-submit {
+  margin-top: 50px;
+}
+/* End Critic */
+
+/* Footer */
+
+/* End Footer */
 @media only screen and (max-width: 680px) {
   .about_row {
     margin-left: 0px;
   }
-  #product {
-  }
+  /* #product {
+  } */
   html,
   body {
     max-width: 100%;
@@ -383,5 +443,27 @@ h2 {
   }
   .link1 {
     margin-left: 200px;
+  }
+  .card-body {
+    margin-left: 8%;
+  }
+  .content-group {
+    position: relative;
+  }
+  .kolomkritik {
+    width: 100%;
+  }
+  .tabelisiemail{
+    width: auto;
+    margin-left: -6px;
+  }
+  .tabelisi {
+    width: auto;
+  }
+  .kolomkomen {
+    width: auto;
+  }
+  .line-3 {
+    width: 100%;
   }
 }

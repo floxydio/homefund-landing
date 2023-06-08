@@ -1,15 +1,14 @@
 ---
 // import BaseHead from '../components/BaseHead.astro';
-import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
-import Navbar from '../layouts/Navbar/Navbar.astro';
+import { SITE_TITLE, SITE_DESCRIPTION } from "../consts";
+import Navbar from "../layouts/Navbar/Navbar.astro";
 // import Metrics from '../layouts/Metrics/Metrics.astro';
-import Cover from '../layouts/Cover/Cover.astro';
-import About from '../layouts/About/About.astro';
-import Advantage from '../layouts/Advantage/advantage.astro';
-import Product from '../layouts/Product/product.astro';
-import Article from '../layouts/Article/article.astro';
-import '../styles/global.css';
-import Tips from '../layouts/Tips/tips.astro';
+import Cover from "../layouts/Cover/Cover.astro";
+import About from "../layouts/About/About.astro";
+import Advantage from "../layouts/Advantage/advantage.astro";
+import Product from "../layouts/Product/product.astro";
+import Article from "../layouts/Article/article.astro";
+import Tips from "../layouts/Tips/tips.astro";
 import Critic from '../layouts/Critic/Critic.astro';
 import Footer from '../layouts/Footer/Footer.astro';
 ---
@@ -18,15 +17,23 @@ import Footer from '../layouts/Footer/Footer.astro';
 <html lang="en">
   <head>
     <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-	 <title>HomeFunding</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>HomeFunding</title>
     <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
 
-	<!-- Icon Bootstrap -->
-	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
-	<!-- <BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} /> -->
+    <!-- Icon Bootstrap -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css"
+    />
+    <!-- <BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} /> -->
   </head>
 	<body>
 			<Navbar />
@@ -40,6 +47,10 @@ import Footer from '../layouts/Footer/Footer.astro';
 			<Footer />
 			{/* <Metrics /> */}
 
-		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-	</body>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>

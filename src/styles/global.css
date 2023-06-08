@@ -1,4 +1,9 @@
 /* Navbar */
+
+.mtcustom-5 {
+  margin-top: 200px;
+}
+
 .navbar {
   position: relative;
 }
@@ -36,55 +41,12 @@
 }
 /* End Navbar */
 
-/* Cover */
-.main {
-  background: linear-gradient(284.5deg, #4169e1 0%, #5b84ff 101.21%);
+/* About */
+.aboutrow {
+  margin:auto;
 }
-.baris1 {
-  padding-block: 40px;
-}
-.kolom1 {
-  align-self: center;
-}
-.title {
-  height: 150px;
-  font-weight: 700;
-  font-size: 50px;
-  line-height: 75px;
-  color: #ffffff;
-  margin-bottom: 30px;
-}
-.space {
-  margin-top: 40px;
-  margin-right: 20px;
-}
-.text {
-  width: 670px;
-  height: 69px;
-  left: 156px;
-  top: 326px;
-  font-weight: 400;
-  font-size: 15px;
-  line-height: 22px;
+/* End About */
 
-  color: rgba(255, 255, 255, 0.7);
-}
-/* .download {
-} */
-.get-now {
-  padding: 5px 40px;
-  gap: 10px;
-  width: 156px;
-  height: 44px;
-  left: 156px;
-  top: 417px;
-  background: #ffffff;
-  border: 1px solid #ffffff;
-  border-radius: 77px;
-}
-.vector {
-  height: 455px;
-}
 /* End Cover */
 
 /* About */

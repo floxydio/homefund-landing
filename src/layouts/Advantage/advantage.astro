@@ -1,48 +1,259 @@
 ---
-
 ---
-<h2 id="feature" class="title_adv" style="margin-bottom:100px;margin-top:100px">Keunggulan kami</h2>
-<div class="row_adv row justify-content-center">
-    <div class="col-lg-10 info-panel">
-      <div class="row_table row justify-content-center">
-        <div class="col-lg text-center">
-          <img class="advantageimg" src="/img/system.png" alt="system">
-          <div>
-            <h4 class="juduladv">Sistem yang mudah</h4>
-          <p class="p1">Anda  dapat dengan mudah berinvestasi rumah dan tidak perlu mengeluarkan modal yang besar untuk mulai berinvestasi karena sistem kami, anda bisa mulai berinvestasi rumah dengan modal yang kecil mulai dari Rp 1 juta.</p>
-          </div>
+
+<!-- <h2 id="feature" class="title_adv" style="margin-bottom:100px;margin-top:100px">Keunggulan kami</h2> -->
+<div class="row-adv row justify-content-center">
+  <div class="col-lg-10 info-panel">
+    <div class="row-table row justify-content-center">
+      <div class="grid-system col-lg text-left">
+        <div class="container-system">
+          <h4 class="title-system">Sistem yang mudah</h4>
+          <img class="advantageimg" src="/img/system.png" alt="system" />
         </div>
-        <div class="col-lg text-center">
-          <img class="advantageimg" src="/img/benefit.png" alt="education">
-          <div>
-            <h4 class="juduladv">Saling menguntungkan</h4>
-          <p class="p1">Dengan sistem investasi yang cepat dengan jangka waktu 3 - 6 bulan maka pembagian hasil dari investasi rumah akan dibagikan 1 bulan setelah target pendanaan terpenuhi</p>
-          </div>
+        <div class="container-text-system">
+          <p class="text-system">
+            Anda dapat dengan mudah berinvestasi rumah dan tidak perlu
+            mengeluarkan modal yang besar untuk mulai berinvestasi karena sistem
+            kami, anda bisa mulai berinvestasi rumah dengan modal yang kecil.
+          </p>
         </div>
-        <div class="col-lg text-center">
-          <img class="advantageimg" src="/img/education.png" alt="benefit">
-          <div>
-            <h4 class="juduladv">Edukasi</h4>
-          <p class="p1">HomeFunding ID juga ikut serta membantu orang orang yang masih kesulitan dan baru terjun ke dunia investasi dengan memberi edukasi edukasi seputar dunia investasi.</p>
-          </div>
+      </div>
+      <div class="grid-benefit col-lg text-center">
+        <div class="container-benefit">
+          <h4 class="title-benefit">Saling menguntungkan</h4>
+          <img class="benefit-img" src="/img/benefit.png" alt="education" />
+        </div>
+        <div class="container-text-benefit">
+          <p class="text-benefit">
+            Dengan sistem investasi yang cepat dengan jangka waktu 3 - 6 bulan
+            maka pembagian hasil dari investasi rumah akan dibagikan 1 bulan
+            setelah target pendanaan terpenuhi.
+          </p>
+        </div>
+      </div>
+      <div class="grid-education col-lg text-center">
+        <div class="container-education">
+          <img class="education-img" src="/img/education.png" alt="benefit" />
+          <h4 class="title-education">Edukasi</h4>
+        </div>
+        <div class="container-text-education">
+          <p class="text-education">
+            HomeFunding ID juga ikut serta membantu orang orang yang masih
+            kesulitan dan baru terjun ke dunia investasi dengan memberi edukasi
+            edukasi seputar dunia investasi.
+          </p>
         </div>
       </div>
     </div>
   </div>
+</div>
 
 <style>
-  .title_adv {
-    font-size: 40px;
-    text-align: center;
-  }
-  .row_adv {
+  .row-adv {
+    margin-top: 15%;
     margin-bottom: 50px;
   }
-  .row_table {
-    margin-top: -15px;
+  .row-table {
+    margin-top: -8%;
   }
   .advantageimg {
     width: 130px;
     height: 130px;
   }
+
+  /* System */
+  .title-system {
+    font-size: 25px;
+    color: #4169e1;
+    width: 50%;
+  }
+  .text-system {
+    margin-top: 30px;
+    color: #707070;
+    font-size: 15px;
+    width: auto;
+  }
+  .container-system {
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+    border-radius: 25px;
+    background-color: #cfdbff;
+    width: 352px;
+    height: 194px;
+  }
+  /* End System */
+
+  /* Benefit */
+  .container-benefit {
+    padding-top: 20px;
+    justify-content: center;
+    border-radius: 25px;
+    background-color: #cfdbff;
+    width: 352px;
+    height: 194px;
+  }
+  .benefit-img {
+    width: 160px;
+    height: 111px;
+  }
+  .title-benefit {
+    font-size: 25px;
+    color: #4169e1;
+  }
+  .text-benefit {
+    margin-top: 30px;
+    color: #707070;
+    font-size: 15px;
+    width: auto;
+    text-align: left;
+  }
+  /* End Benefit */
+
+  /* Education */
+  .container-education {
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+    border-radius: 25px;
+    background-color: #cfdbff;
+    width: 352px;
+    height: 194px;
+  }
+  .education-img {
+    margin-right: 20%;
+    width: 141px;
+    height: 141px;
+  }
+  .title-education {
+    font-size: 25px;
+    color: #4169e1;
+  }
+  .text-education {
+    margin-top: 30px;
+    color: #707070;
+    font-size: 15px;
+    width: auto;
+    text-align: left;
+  }
+  /* End Education */
+
+  @media only screen and (max-width: 1024px) {
+    .row-table {
+      display: grid;
+    }
+
+    /* System */
+    .grid-system {
+      display: flex;
+      margin-bottom: 20px;
+    }
+    .container-system {
+      width: 120%;
+    }
+    .container-text-system {
+      margin-left: 30px;
+    }
+    .text-system {
+      width: 100%;
+      margin-top: 0px;
+    }
+    /* End System */
+
+    /* Benefit */
+    .grid-benefit {
+      display: flex;
+      margin-bottom: 20px;
+    }
+    .container-benefit{
+      width: 102%;
+    }
+    .container-text-benefit {
+      margin-left: 30px;
+    }
+    .text-benefit {
+      width: 100%;
+      margin-top: 0px;
+    }
+    /* End Benefit */
+
+    /* Education */
+    .grid-education {
+      display: flex;
+      margin-bottom: 20px;
+    }
+    .container-education{
+      width: 102%;
+    }
+    .container-text-education {
+      margin-left: 30px;
+    }
+    .text-education {
+      width: 100%;
+      margin-top: 0px;
+    }
+    /* End Education */
+  }
+
+@media only screen and (max-width: 680px) {
+  .row-table {
+    align-items: center;
+  }
+
+  /* System */
+  .container-system{
+    width: 100%;
+  }
+  .container-text-system {
+    margin-top: 30px;
+    margin-left: 0px;
+    width: 100%;
+  }
+  .text-system {
+    padding-right: 10px;
+  }
+  .grid-system {
+   display: block;
+   margin: auto;
+   width: 50%; 
+  }
+  /* End System */
+  
+  /* Benefit */
+  .container-benefit {
+    width: 100%;
+  }
+  .container-text-benefit {
+    margin-top: 30px;
+    margin-left: 0px;
+    width: 100%;
+  }
+  .grid-benefit {
+    padding-top: 10%;
+    padding-bottom: 10%;
+   display: block;
+   margin: auto;
+   width: 50%;
+  }
+  /* End Benefit */
+
+  /* Education */
+  .container-education {
+    width: 100%;
+  }
+  .container-text-education {
+    margin-top: 30px;
+    margin-left: 0px;
+    width: 100%;
+  }
+  .grid-education {
+   display: block;
+   margin: auto;
+   width: 50%; 
+  }
+  .education-img {
+    margin-right: 10%;
+  }
+  /* End Education */
+}
 </style>

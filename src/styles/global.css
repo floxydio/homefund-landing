@@ -97,29 +97,7 @@ p {
 /* End About */
 
 /* Advantage */
-h2 {
-  margin-top: 100px;
-  margin-bottom: 15px;
-  font-size: 50px;
-  text-align: center;
-  font-weight: bold;
-  margin-left: 50px;
-}
-.advantageimg {
-  margin-bottom: 30px;
-  margin-left: 60px;
-  width: 139px;
-  height: 139px;
-}
-.p1 {
-  font-size: 15px;
-  margin-top: 50px;
-  text-align: left;
-}
-.juduladv {
-  font-weight: bold;
-  text-align: left;
-}
+
 /* End Advantage */
 
 /* Product */

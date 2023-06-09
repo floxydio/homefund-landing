@@ -8,7 +8,7 @@
       <div class="grid-system col-lg text-left">
         <div class="container-system">
           <h4 class="title-system">Sistem yang mudah</h4>
-          <img class="advantageimg" src="/img/system.png" alt="system" />
+          <img class="system-img" src="/img/system.png" alt="system" />
         </div>
         <div class="container-text-system">
           <p class="text-system">
@@ -56,7 +56,7 @@
   .row-table {
     margin-top: -8%;
   }
-  .advantageimg {
+  .system-img {
     width: 130px;
     height: 130px;
   }
@@ -165,7 +165,7 @@
       display: flex;
       margin-bottom: 20px;
     }
-    .container-benefit{
+    .container-benefit {
       width: 102%;
     }
     .container-text-benefit {
@@ -182,7 +182,7 @@
       display: flex;
       margin-bottom: 20px;
     }
-    .container-education{
+    .container-education {
       width: 102%;
     }
     .container-text-education {
@@ -195,65 +195,94 @@
     /* End Education */
   }
 
-@media only screen and (max-width: 680px) {
-  .row-table {
-    align-items: center;
-  }
+  @media only screen and (max-width: 680px) {
+    .row-table {
+      align-items: center;
+    }
 
-  /* System */
-  .container-system{
-    width: 100%;
-  }
-  .container-text-system {
-    margin-top: 30px;
-    margin-left: 0px;
-    width: 100%;
-  }
-  .text-system {
-    padding-right: 10px;
-  }
-  .grid-system {
-   display: block;
-   margin: auto;
-   width: 50%; 
-  }
-  /* End System */
-  
-  /* Benefit */
-  .container-benefit {
-    width: 100%;
-  }
-  .container-text-benefit {
-    margin-top: 30px;
-    margin-left: 0px;
-    width: 100%;
-  }
-  .grid-benefit {
-    padding-top: 10%;
-    padding-bottom: 10%;
-   display: block;
-   margin: auto;
-   width: 50%;
-  }
-  /* End Benefit */
+    /* System */
+    .container-system {
+      width: 100%;
+      height: 155px;
+    }
+    .system-img {
+      width: 100px;
+      height: 100px;
+    }
+    .title-system {
+      font-size: 20px;
+      margin-right: -20px;
+    }
+    .container-text-system {
+      margin-top: 30px;
+      margin-left: 0px;
+      width: 100%;
+      padding: 0px;
+    }
+    .text-system {
+      padding-right: 10px;
+    }
+    .grid-system {
+      display: block;
+      margin: auto;
+      width: 50%;
+    }
+    /* End System */
 
-  /* Education */
-  .container-education {
-    width: 100%;
+    /* Benefit */
+    .container-benefit {
+      width: 100%;
+      height: 110%;
+    }
+    .title-benefit {
+      font-size: 20px;
+    }
+    .benefit-img {
+      height: 100px;
+      width: 70%;
+      margin-bottom: 10px;
+    }
+    .container-text-benefit {
+      margin-top: 30px;
+      margin-left: 0px;
+      width: 100%;
+    }
+    .grid-benefit {
+      padding-top: 10%;
+      padding-bottom: 10%;
+      display: block;
+      margin: auto;
+      width: 50%;
+    }
+    /* End Benefit */
+
+    /* Education */
+    .container-education {
+      width: 100%;
+    }
+    .title-education {
+      font-size: 20px;
+      margin-right: 10px;
+      margin-left: -10px;
+    }
+    .education-img {
+      height: 90%;
+      width: 85%;
+      margin-left: 10px;
+    }
+    .container-text-education {
+      margin-top: 30px;
+      margin-left: 0px;
+      width: 100%;
+    }
+    .grid-education {
+      display: block;
+      margin: auto;
+      width: 50%;
+    }
+    .education-img {
+      margin-right: 10%;
+    }
+    /* End Education */
   }
-  .container-text-education {
-    margin-top: 30px;
-    margin-left: 0px;
-    width: 100%;
-  }
-  .grid-education {
-   display: block;
-   margin: auto;
-   width: 50%; 
-  }
-  .education-img {
-    margin-right: 10%;
-  }
-  /* End Education */
-}
 </style>

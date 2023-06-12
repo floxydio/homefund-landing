@@ -2,12 +2,12 @@
 import Header from "./Header";
 ---
 
-<div class="row main justify-content-center">
+<div class="cover__main row main justify-content-center">
   <div class="col-lg-10">
     <div class="row align-items-center justify-content-between">
-      <div class="col-sm-6 px-5">
-        <h1 class="title w-100 text-white">Investasi Rumah dan Ruko</h1>
-        <p class="text">
+      <div class="col-sm-7 px-5">
+        <h1 class="title text-white">Investasi Rumah dan Ruko</h1>
+        <p class="text my-3">
           HomeFunding ID adalah aplikasi investasi berbasis crowdfunding untuk
           investasi rumah dan bisnis untuk semua orang dengan start invest yang
           rendah serta periode imbal hasil yang cepat. Solusi terbaik untuk
@@ -23,7 +23,7 @@ import Header from "./Header";
           </button>
         </div>
       </div>
-      <div class="col-sm-6 mt-3 text-end">
+      <div class="col-sm-5 mt-3 text-end p">
         <img src="../../../img/vector.png" />
       </div>
     </div>
@@ -48,13 +48,13 @@ import Header from "./Header";
 
   .row.main {
     background: linear-gradient(284.5deg, #4169e1 0%, #5b84ff 101.21%);
-    min-height: 55vh;
+    min-height: 100vh;
   }
 
   .title {
     font-style: normal;
     font-weight: 700;
-    font-size: 45px;
+    font-size: 50px;
     line-height: 75px;
 
     color: #ffffff;
@@ -102,22 +102,24 @@ import Header from "./Header";
   }
 
   @media screen and (max-width: 600px) {
-    .text {
+    .col-sm-7 .text {
       font-style: normal;
       font-weight: 400;
       font-size: 15px;
       line-height: 22px;
+
       color: rgba(255, 255, 255, 0.7);
     }
-    .col-sm-6 .title {
+    .title {
       font-style: normal;
       font-weight: 700;
+      font-size: 45px;
       line-height: 68px;
-      font-size: 35px;
-      height: fit-content;
+      color: #ffffff;
     }
-    .col-sm-6 img {
-      padding-right: 5%;
+    .col-sm-5 img {
+      width: 100%;
+      margin-left: 10px;
     }
 
     .box {
@@ -131,7 +133,6 @@ import Header from "./Header";
 
   @media screen and (max-width: 428px) {
     .row.main {
-      /* width: 100%; */
       padding-top: 10px;
     }
     .col-lg-10 {

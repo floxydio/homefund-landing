@@ -50,15 +50,19 @@
 
 <style>
   .row-adv {
-    margin-top: 15%;
+    margin-top: 10%;
     margin-bottom: 10%;
   }
   .row-table {
     margin-top: -8%;
   }
-  .system-img {
-    width: 130px;
-    height: 130px;
+  .info-panel {
+    display: grid;
+  justify-content: center;
+  align-content: center;
+
+  gap: 4px;
+  grid-auto-flow: column;
   }
 
   /* System */
@@ -76,6 +80,10 @@
   .container-text-system {
     padding-right: 10px;
   }
+  .system-img {
+    width: 130px;
+    height: 130px;
+  }
   .container-system {
     padding-top: 30px;
     display: flex;
@@ -84,6 +92,9 @@
     background-color: #cfdbff;
     width: 352px;
     height: 194px;
+  }
+  .grid-system {
+    margin-top: 8%;
   }
   /* End System */
 
@@ -113,6 +124,9 @@
     font-size: 15px;
     width: auto;
     text-align: left;
+  }
+  .grid-benefit {
+    margin-top: 8%;
   }
   /* End Benefit */
 
@@ -145,19 +159,24 @@
     width: auto;
     text-align: left;
   }
+  .grid-education {
+    margin-top: 8%;
+  }
   /* End Education */
 
   @media only screen and (max-width: 1024px) {
     .row-table {
-      margin-top: 110px;
+      padding-left: 5%;
+      padding-top: 50px;
       margin-bottom: 110px;
+      margin-top: 0;
       display: grid;
     }
 
     /* System */
     .grid-system {
-      display: flex;
-      margin-bottom: 20px;
+      display: flex; 
+      margin-top: 0;
     }
     .container-system {
       width: 120%;
@@ -212,21 +231,22 @@
 
   @media only screen and (max-width: 680px) {
     .row-table {
+      padding-left: 0;
       align-items: center;
     }
 
     /* System */
     .container-system {
-      width: 100%;
-      height: 155px;
+      width: 360px;
+      height: 200px;
     }
     .system-img {
-      width: 100px;
-      height: 100px;
+      width: 150px;
+      height: 150px;
     }
     .title-system {
-      font-size: 20px;
-      margin-right: -20px;
+      font-size: 25px;
+      margin-right: -10px;
     }
     .container-text-system {
       margin-top: 30px;
@@ -238,46 +258,48 @@
       padding-right: 10px;
     }
     .grid-system {
+      margin-left: 10px;
+      padding: 0;
       display: block;
-      margin: auto;
-      width: 70%;
+      width: 360px;
     }
     /* End System */
 
     /* Benefit */
     .container-benefit {
-      width: 100%;
-      height: 110%;
+      width: 360px;
+      height: 200px;
     }
     .title-benefit {
-      font-size: 20px;
+      margin-top: 5px;
+      font-size: 25px;
     }
     .benefit-img {
-      height: 90px;
+      height: 110px;
       width: 50%;
       margin-bottom: 10px;
     }
     .container-text-benefit {
       margin-top: 30px;
       margin-left: 0px;
-      width: 100%;
+      width: 360px;
     }
     .grid-benefit {
       padding-top: 10%;
       padding-bottom: 10%;
       display: block;
       margin: auto;
-      width: 70%;
+      width: 100%;
     }
     /* End Benefit */
 
     /* Education */
     .container-education {
       width: 100%;
-      height: 180px;
+      height: 200px;
     }
     .title-education {
-      font-size: 20px;
+      font-size: 25px;
       margin-right: 10px;
       margin-left: -10px;
     }
@@ -290,15 +312,94 @@
     .container-text-education {
       margin-top: 30px;
       margin-left: 0px;
-      width: 100%;
+      padding-right: 0px;
+      width: 360px;
     }
     .grid-education {
       display: block;
       margin: auto;
-      width: 70%;
+      width: 100%;
     }
     .education-img {
       margin-right: 10%;
+    }
+    /* End Education */
+  }
+
+  @media only screen and (max-width: 360px) {
+    .row-adv {
+      margin: 0;
+      width: 100%;
+    }
+    .row-table {
+      width: 100%;
+      margin: 0;
+      padding: 0;
+    }
+    .info-panel {
+      padding: 0;
+    }
+    /* System */
+    .grid-system {
+      display: grid;
+      margin: 0;
+      padding: 10% 5% 2% 4%;
+    }
+    .container-system {
+      width: 327px;
+    }
+    .system-img {
+      width: 150px;
+      height: 150px;
+    }
+    .title-system {
+      font-size: 23px;
+    }
+    .text-system {
+      padding: 0;
+      font-size: 13px;
+    }
+    /* End System */
+
+    /* Benefit */
+    .grid-benefit {
+      display: grid;
+      margin: 0;
+      padding: 10% 5% 2% 4%;
+    }
+    .container-benefit {
+      width: 327px;
+    }
+    .container-text-benefit {
+      padding: 0;
+      width: 100%;
+    }
+    .title-benefit {
+      font-size: 23px;
+    }
+    .text-benefit {
+      font-size: 13px;
+    }
+    /* End Benefit */
+
+    /* Education */
+    .grid-education {
+      display: grid;
+      margin: 0;
+      padding: 10% 5% 2% 4%;
+    }
+    .container-education {
+      width: 327px;
+    }
+    .container-text-education {
+      padding: 0;
+      width: 100%;
+    }
+    .title-education {
+      font-size: 23px;
+    }
+    .text-education {
+      font-size: 13px;
     }
     /* End Education */
   }

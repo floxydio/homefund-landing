@@ -3,46 +3,44 @@
 
 <!-- <h2 id="feature" class="title_adv" style="margin-bottom:100px;margin-top:100px">Keunggulan kami</h2> -->
 <div class="row-adv row justify-content-center">
-  <div class="col-lg-10 info-panel">
-    <div class="row-table row justify-content-center">
-      <div class="grid-system col-lg text-left">
-        <div class="container-system">
-          <h4 class="title-system">Sistem yang mudah</h4>
-          <img class="system-img" src="/img/system.png" alt="system" />
-        </div>
-        <div class="container-text-system">
-          <p class="text-system">
-            Anda dapat dengan mudah berinvestasi rumah dan tidak perlu
-            mengeluarkan modal yang besar untuk mulai berinvestasi karena sistem
-            kami, anda bisa mulai berinvestasi rumah dengan modal yang kecil.
-          </p>
-        </div>
+  <div class="info-panel">
+    <div class="grid-system col-lg text-left">
+      <div class="container-system">
+        <h4 class="title-system">Sistem yang mudah</h4>
+        <img class="system-img" src="/img/system.png" alt="system" />
       </div>
-      <div class="grid-benefit col-lg text-center">
-        <div class="container-benefit">
-          <h4 class="title-benefit">Saling menguntungkan</h4>
-          <img class="benefit-img" src="/img/benefit.png" alt="education" />
-        </div>
-        <div class="container-text-benefit">
-          <p class="text-benefit">
-            Dengan sistem investasi yang cepat dengan jangka waktu 3 - 6 bulan
-            maka pembagian hasil dari investasi rumah akan dibagikan 1 bulan
-            setelah target pendanaan terpenuhi.
-          </p>
-        </div>
+      <div class="container-text-system">
+        <p class="text-system">
+          Anda dapat dengan mudah berinvestasi rumah dan tidak perlu
+          mengeluarkan modal yang besar untuk mulai berinvestasi karena sistem
+          kami, anda bisa mulai berinvestasi rumah dengan modal yang kecil.
+        </p>
       </div>
-      <div class="grid-education col-lg text-center">
-        <div class="container-education">
-          <img class="education-img" src="/img/education.png" alt="benefit" />
-          <h4 class="title-education">Edukasi</h4>
-        </div>
-        <div class="container-text-education">
-          <p class="text-education">
-            HomeFunding ID juga ikut serta membantu orang orang yang masih
-            kesulitan dan baru terjun ke dunia investasi dengan memberi edukasi
-            edukasi seputar dunia investasi.
-          </p>
-        </div>
+    </div>
+    <div class="grid-benefit col-lg text-center">
+      <div class="container-benefit">
+        <h4 class="title-benefit">Saling menguntungkan</h4>
+        <img class="benefit-img" src="/img/benefit.png" alt="education" />
+      </div>
+      <div class="container-text-benefit">
+        <p class="text-benefit">
+          Dengan sistem investasi yang cepat dengan jangka waktu 3 - 6 bulan
+          maka pembagian hasil dari investasi rumah akan dibagikan 1 bulan
+          setelah target pendanaan terpenuhi.
+        </p>
+      </div>
+    </div>
+    <div class="grid-education col-lg text-center">
+      <div class="container-education">
+        <img class="education-img" src="/img/education.png" alt="benefit" />
+        <h4 class="title-education">Edukasi</h4>
+      </div>
+      <div class="container-text-education">
+        <p class="text-education">
+          HomeFunding ID juga ikut serta membantu orang orang yang masih
+          kesulitan dan baru terjun ke dunia investasi dengan memberi edukasi
+          edukasi seputar dunia investasi.
+        </p>
       </div>
     </div>
   </div>
@@ -53,16 +51,12 @@
     margin-top: 10%;
     margin-bottom: 10%;
   }
-  .row-table {
-    margin-top: -8%;
-  }
   .info-panel {
     display: grid;
-  justify-content: center;
-  align-content: center;
-
-  gap: 4px;
-  grid-auto-flow: column;
+    justify-content: space-between;
+    align-content: center;
+    grid-auto-flow: column;
+    padding: 0 8.5% 0 8.5%;
   }
 
   /* System */
@@ -75,7 +69,7 @@
     margin-top: 30px;
     color: #707070;
     font-size: 15px;
-    width: auto;
+    width: 352px;
   }
   .container-text-system {
     padding-right: 10px;
@@ -122,7 +116,7 @@
     margin-top: 30px;
     color: #707070;
     font-size: 15px;
-    width: auto;
+    width: 352px;
     text-align: left;
   }
   .grid-benefit {
@@ -156,7 +150,7 @@
     margin-top: 30px;
     color: #707070;
     font-size: 15px;
-    width: auto;
+    width: 352px;
     text-align: left;
   }
   .grid-education {
@@ -172,14 +166,16 @@
       margin-top: 0;
       display: grid;
     }
-
+    .info-panel {
+      display: inline;
+    }
     /* System */
     .grid-system {
-      display: flex; 
+      display: flex;
       margin-top: 0;
     }
     .container-system {
-      width: 120%;
+      width: 100%;
     }
     .container-text-system {
       margin-left: 30px;
@@ -196,7 +192,7 @@
       margin-bottom: 20px;
     }
     .container-benefit {
-      width: 102%;
+      width: 85%;
     }
     .container-text-benefit {
       margin-left: 30px;
@@ -217,7 +213,7 @@
       margin-bottom: 20px;
     }
     .container-education {
-      width: 102%;
+      width: 85%;
     }
     .container-text-education {
       margin-left: 30px;
@@ -230,11 +226,6 @@
   }
 
   @media only screen and (max-width: 680px) {
-    .row-table {
-      padding-left: 0;
-      align-items: center;
-    }
-
     /* System */
     .container-system {
       width: 360px;
@@ -258,7 +249,7 @@
       padding-right: 10px;
     }
     .grid-system {
-      margin-left: 10px;
+      margin: 0 20% 0 20%;
       padding: 0;
       display: block;
       width: 360px;
@@ -288,14 +279,14 @@
       padding-top: 10%;
       padding-bottom: 10%;
       display: block;
-      margin: auto;
+      margin: 0 20% 0 20%;
       width: 100%;
     }
     /* End Benefit */
 
     /* Education */
     .container-education {
-      width: 100%;
+      width: 360px;
       height: 200px;
     }
     .title-education {
@@ -317,7 +308,7 @@
     }
     .grid-education {
       display: block;
-      margin: auto;
+      margin: 0 20% 0 20%;
       width: 100%;
     }
     .education-img {

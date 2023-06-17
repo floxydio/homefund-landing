@@ -5,10 +5,10 @@ import Header from "./Header";
 <div class="row main justify-content-center">
   <div class="col-lg-10 col-md-10 col-sm-10">
     <div class="row align-items-center px-0">
-      <div class="col-sm-6 col-lg-8">
-        <h1 class="title w-75 text-white">Investasi Rumah dan Ruko</h1>
+      <div class="col-sm-6 col-lg-6">
+        <h1 class="title text-white">Investasi Rumah dan Ruko</h1>
         <p class="text">
-          HomeFunding ID adalah aplikasi investasi berbasis crowdfunding untuk
+          HomeFunding ID adalah aplikasi investasi berbasis crowd funding untuk
           investasi rumah dan bisnis untuk semua orang dengan start invest yang
           rendah serta periode imbal hasil yang cepat. Solusi terbaik untuk
           memulai investasi properti kamu.
@@ -23,11 +23,11 @@ import Header from "./Header";
           </button>
         </div>
       </div>
-      <div class="col-sm-6 col-lg-4 mt-3 text-end">
+      <div class="col-sm-6 col-lg-6 mt-3 text-end">
         <img class="text-center" src="../../../img/vector.png" />
       </div>
     </div>
-    <div class="col column d-flex justify-content-center">
+    <div class="col column d-flex justify-content-center py-5">
       <div class="column d-flex">
         <p class="text-white">Kontak Kami</p>
         <i class="bi bi-arrow-right text-white"></i>
@@ -45,20 +45,20 @@ import Header from "./Header";
 </div>
 
 <style scoped>
-
   .row.main {
     background: linear-gradient(284.5deg, #4169e1 0%, #5b84ff 101.21%);
     min-height: 55vh;
   }
 
-.row.align-items-center {
-  padding-left: -2px;
-}
+  .row.align-items-center {
+    padding-left: -2px;
+  }
 
   .title {
+    width: fit-content;
     font-style: normal;
     font-weight: 700;
-    font-size: 45px;
+    font-size: 50px;
     line-height: 75px;
 
     color: #ffffff;
@@ -74,8 +74,8 @@ import Header from "./Header";
 
   .download {
     gap: 20px;
-    /* width: 188px; */
-    /* height: 44px; */
+    width: 188px;
+    height: 44px;
     border: 1px solid #ffffff;
     border-radius: 77px;
     font-weight: 500;
@@ -106,7 +106,6 @@ import Header from "./Header";
   }
 
   @media screen and (max-width: 600px) {
-
     .col-sm-6 {
       padding-inline: 10%;
       /* background-color: red; */
@@ -119,11 +118,15 @@ import Header from "./Header";
       color: rgba(255, 255, 255, 0.7);
     }
     .col-sm-6 .title {
-      font-style: normal;
+      /* font-style: normal;
       font-weight: 700;
       line-height: 68px;
       font-size: 35px;
-      height: fit-content;
+      height: fit-content; */
+      font-style: normal;
+      font-weight: 700;
+      font-size: 45px;
+      line-height: 68px;
     }
     .col-sm-6 img {
       padding-right: 16%;
@@ -144,8 +147,8 @@ import Header from "./Header";
       padding-top: 10px;
     }
     .col-lg-10 {
-      width: 100%;
-      position: relative;
+      /* width: 100%; */
+      /* position: relative; */
     }
 
     .col-sm-6 img {

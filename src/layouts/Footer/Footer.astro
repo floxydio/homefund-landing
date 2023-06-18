@@ -77,7 +77,9 @@
                 <img class="socmed-image" src="../public/img/instagram-icon.png" alt="" />
                 <img class="socmed-image" src="../public/img/facebook-icon.png" alt="" />
             </div>
+            <p class="link-container">
                 <a href="#" class="link-report">Report a vulnerability</a> 
+            </p>
         </div>
     </div>
 </div>
@@ -100,9 +102,11 @@
         height: 65px;
     }
     .left-tab {
-        margin: 0;
+        overflow-y: hidden;
+        margin: 0 0 60px 0;
         padding: 0;
         width: 50%;
+        height: 100%;
     }
     .footer-title {
         margin: 0;
@@ -115,7 +119,6 @@
         font-size: 15px;
     }
     .footer-main {
-        height: 550px;
         width: 100%;
         background-color: #4169e1;
     }
@@ -138,7 +141,7 @@
         width: 40%;
     }
     .link-menu {
-        width: 25%;
+        width: 60px;
         display: block;
         margin-top: 16px;
         font-size: 15px;
@@ -153,7 +156,7 @@
         width: 50%;
     }
     .link-ask {
-        width: 32%;
+        width: 100px;
         display: block;
         margin-top: 16px;
         font-size: 15px;
@@ -175,7 +178,7 @@
         color: #7ca5db;
     }
     .link-legality {
-        width: 22%;
+        width: 140px;
         display: block;
         margin-top: 16px;
         font-size: 15px;
@@ -189,8 +192,9 @@
 
     /* Right Tab */
     .right-tab {
+        overflow-y: hidden;
         width: 50%;
-        margin: 0 0 0 50px;
+        margin: 0 0 60px 50px;
         padding: 0 0 0 0;
     }
     .right-tab-title {
@@ -291,30 +295,171 @@
 
     /* Social Media Image */
     .social-media-image {
-        position: relative;
-        right: -58%;
-        width: 42%;
+        display: flex;
+        width: 100%;
         margin: 50px 0 0 0;
+        padding-left: 55%;
     }
     .socmed-image {
-        width: 30px;
-        height: 100%px;
+        right: 0;
+        width: 35px;
+        height: 35px;
         margin-left: 30px;
     }
     /*  End Social Media Image */
 
     /* Report */
+    .link-container {
+        margin: 50px 0 0 0;
+        text-align: right;
+    }
     .link-report {
-        width: 23%;
+        width: 100%;
         font-size: 15px;
         font-weight: 400;
         color: #ffffff;
         text-decoration: none;
-        position: relative;
-        left: 75%;
-        top: 12%;
+        margin: 0 0 0 0;
     }
     /* End Report */
 
     /* End Right Tab */
+
+    @media only screen and (max-width: 1024px) {
+        .right-tab {
+            margin: 0;
+        }
+        .social-media-image {
+            padding-left: 51%;
+            width: 100%;
+            display: flex;
+        }
+        .socmed-image {
+            width: 35px;
+            height: 35px;
+        }
+    }
+
+    @media only screen and (max-width: 680px) {
+        .home-tab {
+            padding: 0;
+            display: block;
+            position: relative;
+            padding: 0 -5% 0 0;
+            margin: 50px 0 0 10%;
+        }
+        .left-tab {
+            width: 100%;
+            margin-bottom: 65px;
+        }
+        .right-tab {
+            width: 100%;
+        }
+        .sub-tab {
+            margin-top: 0;
+            width: 341px;
+            position: absolute;
+            top: 44%;
+            right: 0;
+        }
+        .text-sub {
+            width: 57%;
+        }
+        .submit-sub {
+            width: 41%;
+        }
+        .form-sub {
+            width: 100%;
+        }
+        .link-container {
+            margin-bottom: 50px;
+        }
+    }
+    
+    @media only screen and (max-width: 360px) {
+        .home-tab {
+            margin-left: 0;
+            padding: 0 5% 0 5%;
+        }
+
+        .left-tab {
+            margin-bottom: 40%;
+        }
+
+        .footer-image {
+            width: 25%;
+        }
+        .footer-title {
+            font-size: 17px;
+        }
+        .title-child {
+            font-size: 12px;
+            width: 80%;
+        }
+
+        .menu-tab {
+            width: 60%;
+        }
+        .title-menu-ask {
+            font-size: 17px;
+            font-weight: 400;
+        }
+        .link-menu {
+            font-size: 12px;
+            font-weight: 400;
+        }
+        .link-ask {
+            font-size: 12px;
+            font-weight: 400;
+        }
+
+        .title-legality {
+            font-size: 17px;
+            font-weight: 400;
+        }
+        .link-legality {
+            font-size: 12px;
+            font-weight: 400;
+        }
+
+        .right-tab-title {
+            font-size: 17px;
+            font-weight: 400;
+        }
+
+        .address-paragraph {
+            margin-top: 2px;
+            font-size: 12px;
+            font-weight: 400;
+        }
+        .web-paragraph {
+            font-size: 12px;
+            font-weight: 400;
+        }
+        .mail-paragraph {
+            font-size: 12px;
+            font-weight: 400;
+        }
+
+        .social-media-image {
+            padding-left: 30%;
+        }
+        .socmed-image {
+            width: 28px;
+            height: 28px;
+        }
+
+        .link-report {
+            font-size: 12px;
+            font-weight: 400;
+        }
+
+        .sub-tab {
+            margin-top: 0;
+            width: 100%;
+            padding: 0 5% 0 5%;
+            position: absolute;
+            top: 50%;
+        }
+    }
 </style>

@@ -1,25 +1,210 @@
 ---
-
 ---
-<div style="margin-top: 100px;margin-bottom: 47px;font-size: 50px;margin-left:50px">Artikel</div>
-<div class="row justify-content-left" style="margin-top:50px;margin-left:50px">
-    <div class="col info-panel">
-      <div class="row">
-        <div class="col-lg">
-          <img src="/img/gambar1.png" style="margin-bottom: 30px;margin-right: px; width: 100%; height:201px" alt="system" class="float-center">
-          <h4 class="title_article">Sistem yang mudah</h4>
-          <p style="font-size: 15px;margin-top: 50px;">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit perspiciatis odit architecto, dolorum expedita dolores porro provident exercitationem natus, nam, placeat est illo soluta cumque ab reiciendis libero molestias corporis.</p>
-        </div>
-        <div class="col-lg">
-          <img src="/img/gambar2.png" style="margin-bottom: 30px;margin-right: 8px; width: 100%; " alt="education" class="float-center">
-          <h4>Saling menguntungkan</h4>
-          <p style="font-size: 15px;margin-top: 50px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam omnis vitae perferendis inventore expedita consequatur consequuntur, dicta sunt incidunt, temporibus sapiente, saepe quisquam officiis adipisci qui quod porro facilis? Accusamus?</p>
-        </div>
-        <div class="col-lg">
-          <img src="/img/gambar3.png" style="margin-bottom: 31px; width: 100%; height:201px" alt="benefit" class="float-center">
-          <h4>Edukasi</h4>
-          <p style="font-size: 15px;margin-top: 50px;">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magni vero labore quod error sunt numquam voluptatem magnam nesciunt, pariatur culpa quis nisi fuga excepturi consequatur fugiat? Dolore illum veniam repellat.</p>
-        </div>
+
+<div class="row-article">
+  <div class="container title-container">
+    <div class="title-article">Artikel</div>
+    <div class="line-1"></div>
+  </div>
+  <div class="container-article">
+    <div class="container-article-title">
+      <img src="/img/gambar1.png" alt="system" class="article-image" />
+      <div class="container container-paragraph">
+        <h4 class="title-paragraph">
+          Manfaat Mengelola Costumer Profile Untuk Kemajuan Bisnis
+        </h4>
+        <p class="date-article">Date ...</p>
+        <p class="paragraph-article">
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+          Reprehenderit perspiciatis odit architecto, dolorum expedita dolores
+          porro provident exercitationem natus, nam, placeat est illo soluta
+          cumque ab reiciendis libero molestias corporis.
+        </p>
+          <a href="#" class="link-article">Selengkapnya →</a>
+      </div>
+    </div>
+    <div class="container-article-title-mid">
+      <img src="/img/gambar2.png" alt="education" class="article-image" />
+      <div class="container container-paragraph">
+        <h4 class="title-paragraph">
+          Cara Memilih Model Rumah Untuk Tempat Tinggal
+        </h4>
+        <p class="date-article">Date ...</p>
+        <p class="paragraph-article">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam
+          omnis vitae perferendis inventore expedita consequatur consequuntur,
+          dicta sunt incidunt, temporibus sapiente, saepe quisquam officiis
+          adipisci qui quod porro facilis? Accusamus?
+        </p>
+          <a href="#" class="link-article">Selengkapnya →</a>
+      </div>
+    </div>
+    <div class="container-article-title">
+      <img src="/img/gambar3.png" alt="benefit" class="article-image" />
+      <div class="container container-paragraph">
+        <h4 class="title-paragraph">
+          Ciri-ciri Rumah Yang Layak Untuk Ditinggali Untuk ....
+        </h4>
+        <p class="date-article">Date ...</p>
+        <p class="paragraph-article">
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magni vero
+          labore quod error sunt numquam voluptatem magnam nesciunt, pariatur
+          culpa quis nisi fuga excepturi consequatur fugiat? Dolore illum veniam
+          repellat.
+        </p>
+          <a href="#" class="link-article">Selengkapnya →</a>
       </div>
     </div>
   </div>
+</div>
+
+<style>
+  .row-article {
+    margin-bottom: 50px;
+  }
+  .title-container {
+    margin-bottom: 47px;
+  }
+  .title-article {
+    color: #707070;
+    font-weight: 275;
+    font-size: 35px;
+  }
+  .line-1 {
+    width: 216px;
+    height: 2px;
+    background: #e2e2e2;
+  }
+  .container-article {
+    display: flex;
+    height: 600px;
+    width: 100%;
+    padding-left: 7.5%;
+    padding-right: 8.3%;
+  }
+  .info-panel-article {
+    display: flex;
+    padding: 0;
+  }
+  .container-article-title {
+    width: 380px;
+    padding: 0;
+  }
+  .container-article-title-mid {
+    margin: 0 5.6% 0 5.6%;
+    width: 380px;
+    padding: 0;
+  }
+  .article-image {
+    width: 100%;
+    height: 245px;
+  }
+  .container-paragraph {
+    padding: 0;
+  }
+  .title-paragraph {
+    margin-top: 20px;
+    font-size: 25px;
+    font-weight: 275;
+    width: 380px;
+    color: #707070;
+  }
+  .date-article {
+    font-size: 13px;
+    font-weight: 400;
+    color: #adadad;
+  }
+  .paragraph-article {
+    font-size: 15px;
+    color: #707070;
+    margin-top: 22px;
+    margin-bottom: 40px;
+    font-size: 15px;
+    font-weight: 400;
+    width: 380px;
+  }
+  .link-article {
+    position: relative;
+    left: 68%;
+    width: 120px;
+  }
+
+  @media only screen and (max-width: 1024px) {
+    .title-container {
+      padding: 0;
+    }
+    .container-article {
+      display: flex;
+      overflow-x: auto;
+      padding: 0 3% 0 3%;
+    }
+    .container-article::-webkit-scrollbar {
+      margin-top: 50px;
+    }
+    .container-article-title {
+      min-width: 380px;
+    }
+    .container-article-title-mid {
+      min-width: 380px;
+    }
+  }
+
+  @media only screen and (max-width: 680px) {
+    .title-article {
+      font-size: 25px;
+    }
+    .line-1 {
+      width: 25%;
+    }
+    .title-container {
+      margin-left: 4%;
+      margin-bottom: 55px;
+    }
+  }
+
+  @media only screen and (max-width: 360px) {
+    .row-article {
+      margin-top: 100px;
+    }
+    .container-article {
+      overflow-x: hidden;
+      display: inline;
+    }
+    .title-article {
+      font-size: 20px;
+      font-weight: 275px;
+    }
+    .container-article-title {
+      padding: 0 2.5% 0 2.5%;
+      min-width: 340px;
+    }
+    .container-article-title-mid {
+      padding: 90px 2.5% 90px 2.5%;
+      min-width: 340px;
+      margin: 0;
+    }
+    .article-image {
+      width: 340px;
+      height: 245px;
+    }
+    .title-paragraph {
+      width: 340px;
+    }
+    .title-paragraph {
+      font-size: 17px;
+    }
+    .date-article {
+      font-size: 10px;
+    }
+    .paragraph-article {
+      font-size: 13px;
+      width: 340px;
+    }
+    .link-article {
+      position: relative;
+      left: 62%;
+      font-size: 13px;
+      width: 340px;
+    }
+  }
+</style>

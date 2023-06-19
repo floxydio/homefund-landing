@@ -9,10 +9,10 @@
       <h3 class="title-product">Produk</h3>
       <div class="line-1"></div>
       <p class="text-product">Kami menyediakan investasi rumah dengan sistem joint venture dengan modal yang kecil, transparan, aman dan terpercaya. Nikmati profit atau imbal hasil setelah rumah telah dijual dengan proses cepat.</p>
-      <a href="" class="link-product">Lihat detail produk   →</a>
+      <a href="#" class="link-product">Lihat detail produk   →</a>
     </div>
   </div>
-  
+
 
   <style>
 .row-product {
@@ -20,12 +20,13 @@
   margin-bottom: 10%;
 }
 .title-product {
+  overflow-y: hidden;
   color: #707070;
 }
 .line-1 {
   width: 216px;
-  height: 1px;
-  background: rgb(213, 213, 213);
+  height: 2px;
+  background: #E2E2E2;
 }
 .text-product {
   color: #707070;
@@ -42,7 +43,6 @@
   padding-left: 20px;
 }
 .product-img {
-  margin-left: 11%;
   width: 424px;
   height: 319px;
 }
@@ -59,7 +59,7 @@
   }
   .product-img {
     margin-left: 0;
-    padding-right: 10px;
+    padding-right: 20px;
     width: 100%;
     height: 100%;
   }
@@ -73,7 +73,7 @@
     margin-bottom: 10%;
     margin-left: 0;
     margin-right: 0;
-    padding-left: 3%;
+    padding-left: 4%;
     padding-right: 3%;
   }
   .container-product {
@@ -96,6 +96,20 @@
   }
   .line-1 {
     width: 216px;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  .row-product {
+    margin-top: 200px;
+    padding-left: 3%;
+    padding-right: 3%;
+  }
+  .container-image {
+    padding: 0 15% 18% 15%;
+  }
+  .line-1 {
+    width: 40%;
   }
 }
   </style>

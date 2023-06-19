@@ -1,15 +1,465 @@
 ---
-
 ---
-<div class="main" style="background-color: blue;">
-    <div class="container col">
-    <div class="container"  style="display: flex; align-items: ; justify-content: left;">
-        <img src="../public/img/Logo.png" alt="" style="margin-top: 20px;">
-        <div style="font-size: 20px; padding-top: 35px; color: white; padding-left: 5px;">
-            HomeFunding ID
+
+<div class="footer-main">
+    <div class="container home-tab">
+        <div class="container left-tab">
+            <div class="container-title-footer">
+                <img class="footer-image" src="../public/img/Logo.png" alt="" />
+                <div>
+                    <h1 class="footer-title">HomeFunding ID</h1>
+                    <p class="title-child">
+                        Temukan sobat terbaiki untuk investasi properti
+                    </p>
+                </div>
+            </div>
+            <div class="container menu-ask">
+                <div class="menu-tab">
+                    <h1 class="title-menu-ask">Menu</h1>
+                    <a href="#" class="link-menu">Beranda</a>
+                    <a href="#" class="link-menu">Events</a>
+                    <a href="#" class="link-menu">Artikel</a>
+                    <a href="#" class="link-menu">Produk</a>
+                </div>
+                <div class="ask-tab">
+                    <h1 class="title-menu-ask">Tanya</h1>
+                    <a href="#" class="link-ask">Tentang Kami</a>
+                    <a href="#" class="link-ask">FAQ</a>
+                    <a href="#" class="link-ask">Kontak Kami</a>
+                    <a href="#" class="link-ask">Karir</a>
+                </div>
+            </div>
+            <div class="container legality-tab">
+                <h1 class="title-legality">Legality</h1>
+                <a href="#" class="link-legality">Syarat & Ketentuan</a>
+                <a href="#" class="link-legality">Kebijakan Privasi</a>
+            </div>
+        </div>
+        <div class="container right-tab">
+            <div class="right-tab-title">Office</div>
+            <div class="address-tab">
+                <img
+                    class="address-image"
+                    src="../public/img/address-icon.png"
+                    alt=""
+                />
+                <div class="address-paragraph">
+                    Jln. Kp. Bojong, No.56
+                    <br />Kecamatan Sukmajaya 16418
+                    <br />Depok, Jawa Barat
+                </div>
+            </div>
+            <div class="web-tab">
+                <img
+                    class="web-image"
+                    src="../public/img/link-icon.png"
+                    alt=""
+                />
+                <div class="web-paragraph">https://kontrakdana.io</div>
+            </div>
+            <div class="mail-tab">
+                <img
+                    class="mail-image"
+                    src="../public/img/mail-icon.png"
+                    alt=""
+                />
+                <div class="mail-paragraph">kontrak.dana@gmail.com</div>
+            </div>
+            <div class="sub-tab">
+                <form class="form-sub" action="#">
+                    <input class="text-sub" type="text" placeholder="nama@email.com" name="subscribe" />
+                    <button class="submit-sub" type="submit">Berlangganan</button>
+                </form>
+            </div>
+            <div class="social-media-image">
+                <img class="socmed-image" src="../public/img/twitter-icon.png" alt="" />
+                <img class="socmed-image" src="../public/img/telegram-icon.png" alt="" />
+                <img class="socmed-image" src="../public/img/instagram-icon.png" alt="" />
+                <img class="socmed-image" src="../public/img/facebook-icon.png" alt="" />
+            </div>
+            <p class="link-container">
+                <a href="#" class="link-report">Report a vulnerability</a> 
+            </p>
         </div>
     </div>
+</div>
 
+<style>
+    .home-tab {
+        display: flex;
+        margin: 50px 0 0 9%;
+        padding: 0 4.5% 0 0;
+        width: 100%;
+    }
+
+    /* Left Tab */
+    .container-title-footer {
+        display: flex;
+    }
+    .footer-image {
+        margin-right: 20px;
+        width: 65px;
+        height: 65px;
+    }
+    .left-tab {
+        overflow-y: hidden;
+        margin: 0 0 60px 0;
+        padding: 0;
+        width: 50%;
+        height: 100%;
+    }
+    .footer-title {
+        margin: 0;
+        font-size: 20px;
+        color: white;
+        font-weight: 600;
+    }
+    .title-child {
+        color: white;
+        font-size: 15px;
+    }
+    .footer-main {
+        width: 100%;
+        background-color: #4169e1;
+    }
+
+    /* Menu-ask Tab */
+    .menu-ask {
+        display: flex;
+        margin-top: 50px;
+        padding: 0;
+    }
+    .title-menu-ask {
+        font-size: 20px;
+        font-weight: 400;
+        color: #7ca5db;
+    }
+    /* End Menu-ask Tab */
+
+    /* Menu-tab */
+    .menu-tab {
+        width: 40%;
+    }
+    .link-menu {
+        width: 60px;
+        display: block;
+        margin-top: 16px;
+        font-size: 15px;
+        font-weight: 400;
+        color: #ffffff;
+        text-decoration: none;
+    }
+    /* End Menu-tab */
+
+    /* Ask-tab */
+    .ask-tab {
+        width: 50%;
+    }
+    .link-ask {
+        width: 100px;
+        display: block;
+        margin-top: 16px;
+        font-size: 15px;
+        font-weight: 400;
+        color: #ffffff;
+        text-decoration: none;
+    }
+    /* End Ask-tab */
+
+    /* Legality-tab */
+    .legality-tab {
+        padding: 0;
+        margin-top: 50px;
+    }
+    .title-legality {
+        margin: 0;
+        font-size: 20px;
+        font-weight: 400;
+        color: #7ca5db;
+    }
+    .link-legality {
+        width: 140px;
+        display: block;
+        margin-top: 16px;
+        font-size: 15px;
+        font-weight: 400;
+        color: #ffffff;
+        text-decoration: none;
+    }
+    /* End Legality-tab */
+
+    /* End Left Tab */
+
+    /* Right Tab */
+    .right-tab {
+        overflow-y: hidden;
+        width: 50%;
+        margin: 0 0 60px 50px;
+        padding: 0 0 0 0;
+    }
+    .right-tab-title {
+        margin: 0;
+        font-size: 20px;
+        font-weight: 400;
+        color: #7ca5db;
+    }
+
+    /* Address */
+    .address-tab {
+        display: flex;
+        margin-top: 16px;
+        padding: 0;
+    }
+    .address-image {
+        width: 16px;
+        height: 30px;
+    }
+    .address-paragraph {
+        margin-left: 10px;
+        width: 100%;
+        height: auto;
+        font-size: 15px;
+        font-weight: 300;
+        color: #ffffff;
+    }
+    /* End Adress */
+
+    /* Web */
+    .web-tab {
+        display: flex;
+        margin-top: 16px;
+    }
+    .web-image {
+        margin-top: 2px;
+        width: 16px;
+        height: 20px;
+    }
+    .web-paragraph {
+        margin-left: 10px;
+        width: 100%;
+        height: auto;
+        font-size: 15px;
+        font-weight: 300;
+        color: #ffffff;
+    }
+    /* End Web */
+
+    /* Mail */
+    .mail-tab {
+        display: flex;
+        margin-top: 16px;
+    }
+    .mail-image {
+        margin-top: 2px;
+        width: 16px;
+        height: 20px;
+    }
+    .mail-paragraph {
+        margin-left: 10px;
+        width: 100%;
+        height: auto;
+        font-size: 15px;
+        font-weight: 300;
+        color: #ffffff;
+    }
+    /* End Mail */
+
+    /* Subscribe */
+    .sub-tab {
+        width: 100%;
+        margin-top: 50px;
+    }
+    .form-sub {
+        display: block;
+        width: 100%;
+        white-space: 0;
+    }
+    .text-sub {
+        width: 65%;
+        padding: 0 0 0 5px;
+        border-radius: 10px 0 0 10px;
+        height: 43px;
+        border: none;
+    }
+    .submit-sub {
+        background: #56b3ff;
+	    color: #fff;
+	    border: 1px solid;
+	    border-radius:  0 10px 10px 0;
+	    text-shadow: none;
+        border: none;
+        height: 43px;
+        width: 34%;
+    }
+    /* End Subscribe */
+
+    /* Social Media Image */
+    .social-media-image {
+        display: flex;
+        width: 100%;
+        margin: 50px 0 0 0;
+        padding-left: 55%;
+    }
+    .socmed-image {
+        right: 0;
+        width: 35px;
+        height: 35px;
+        margin-left: 30px;
+    }
+    /*  End Social Media Image */
+
+    /* Report */
+    .link-container {
+        margin: 50px 0 0 0;
+        text-align: right;
+    }
+    .link-report {
+        width: 100%;
+        font-size: 15px;
+        font-weight: 400;
+        color: #ffffff;
+        text-decoration: none;
+        margin: 0 0 0 0;
+    }
+    /* End Report */
+
+    /* End Right Tab */
+
+    @media only screen and (max-width: 1024px) {
+        .right-tab {
+            margin: 0;
+        }
+        .social-media-image {
+            padding-left: 51%;
+            width: 100%;
+            display: flex;
+        }
+        .socmed-image {
+            width: 35px;
+            height: 35px;
+        }
+    }
+
+    @media only screen and (max-width: 680px) {
+        .home-tab {
+            padding: 0;
+            display: block;
+            position: relative;
+            padding: 0 -5% 0 0;
+            margin: 50px 0 0 10%;
+        }
+        .left-tab {
+            width: 100%;
+            margin-bottom: 65px;
+        }
+        .right-tab {
+            width: 100%;
+        }
+        .sub-tab {
+            margin-top: 0;
+            width: 341px;
+            position: absolute;
+            top: 44%;
+            right: 0;
+        }
+        .text-sub {
+            width: 57%;
+        }
+        .submit-sub {
+            width: 41%;
+        }
+        .form-sub {
+            width: 100%;
+        }
+        .link-container {
+            margin-bottom: 50px;
+        }
+    }
     
-</div>
-</div>
+    @media only screen and (max-width: 360px) {
+        .home-tab {
+            margin-left: 0;
+            padding: 0 5% 0 5%;
+        }
+
+        .left-tab {
+            margin-bottom: 40%;
+        }
+
+        .footer-image {
+            width: 25%;
+        }
+        .footer-title {
+            font-size: 17px;
+        }
+        .title-child {
+            font-size: 12px;
+            width: 80%;
+        }
+
+        .menu-tab {
+            width: 60%;
+        }
+        .title-menu-ask {
+            font-size: 17px;
+            font-weight: 400;
+        }
+        .link-menu {
+            font-size: 12px;
+            font-weight: 400;
+        }
+        .link-ask {
+            font-size: 12px;
+            font-weight: 400;
+        }
+
+        .title-legality {
+            font-size: 17px;
+            font-weight: 400;
+        }
+        .link-legality {
+            font-size: 12px;
+            font-weight: 400;
+        }
+
+        .right-tab-title {
+            font-size: 17px;
+            font-weight: 400;
+        }
+
+        .address-paragraph {
+            margin-top: 2px;
+            font-size: 12px;
+            font-weight: 400;
+        }
+        .web-paragraph {
+            font-size: 12px;
+            font-weight: 400;
+        }
+        .mail-paragraph {
+            font-size: 12px;
+            font-weight: 400;
+        }
+
+        .social-media-image {
+            padding-left: 30%;
+        }
+        .socmed-image {
+            width: 28px;
+            height: 28px;
+        }
+
+        .link-report {
+            font-size: 12px;
+            font-weight: 400;
+        }
+
+        .sub-tab {
+            margin-top: 0;
+            width: 100%;
+            padding: 0 5% 0 5%;
+            position: absolute;
+            top: 50%;
+        }
+    }
+</style>

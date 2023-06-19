@@ -1,0 +1,144 @@
+---
+import Header from "./Header";
+---
+
+<div class="main">
+  <div class="container">
+    <div class="baris1 row justify-content-between">
+      <div class="kolom1 col-lg-5 col-md-8 bg-danger">
+        <!-- <h1 class="title">Cari Investasi yang {(<Header client:load />)}?</h1> -->
+
+        <h1 class="title_text">Investasi Rumah dan Ruko</h1>
+        <p class="text mtcustom-5">
+          HomeFunding ID adalah aplikasi investasi berbasis crowdfunding untuk
+          investasi rumah dan bisnis untuk semua orang dengan start invest yang
+          rendah serta periode imbal hasil yang cepat. Solusi terbaik untuk
+          memulai investasi properti kamu.
+        </p>
+        <div class="kolom2 col">
+          <button
+            class="download btn btn-light rounded-pill space"
+            type="submit"
+            style="color: #4169E1"
+          >
+            Dapatkan di Beta Version
+          </button>
+          <button
+            class="download btn btn-outline-light rounded-pill space"
+            type="submit"
+          >
+            Fitur Tersedia
+          </button>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-3 text-center mt-5 mb-5">
+        <div class="vector">
+          <img class="img_responsive" src="../../../img/vector.png" />
+        </div>
+      </div>
+      <div class="my-4">
+        <div class="contact d-flex justify-content-center gap-5 text-white">
+          <div class="kontak d-flex">
+            <p class="text-white">Kontak Kami</p>
+            <i class="bi bi-arrow-right ms-2"></i>
+          </div>
+          <div class="solusi d-flex">
+            <p class="text-white">Solusi Kami</p>
+            <i class="bi bi-arrow-right ms-2"></i>
+          </div>
+          <div class="cerita d-flex">
+            <p class="text-white">Cerita Kami</p>
+            <i class="bi bi-arrow-right ms-2"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<style>
+  .main {
+    background: linear-gradient(284.5deg, #4169e1 0%, #5b84ff 101.21%);
+  }
+  .baris1 {
+    padding-block: 40px;
+  }
+  .kolom1 {
+    align-self: center;
+  }
+  .title {
+    width: 100%;
+    font-weight: 700;
+    font-size: 35px;
+    color: #ffffff;
+    margin-bottom: 30px;
+  }
+  .title_text {
+    font-weight: 700;
+    font-size: 35px;
+    color: #ffffff;
+    margin-bottom: 30px;
+  }
+  .space {
+    margin-top: 40px;
+    margin-right: 20px;
+  }
+
+  .custom__cover_text {
+    font-size: 12px;
+  }
+  .text {
+    width: 670px;
+    height: 69px;
+    left: 156px;
+    top: 326px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+
+    color: rgba(255, 255, 255, 0.7);
+  }
+  .download {
+  }
+  .get-now {
+    padding: 5px 40px;
+    gap: 10px;
+    width: 156px;
+    height: 44px;
+    left: 156px;
+    top: 417px;
+    background: #ffffff;
+    border: 1px solid #ffffff;
+    border-radius: 77px;
+  }
+  .vector {
+    height: 455px;
+  }
+
+  @media only screen and (max-width: 480px) {
+    .title {
+      margin-bottom: 80px;
+    }
+    .img_responsive {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .text {
+      margin-bottom: 40px;
+      width: 100%;
+    }
+    .kolom2 {
+      margin-top: 20px;
+    }
+  }
+
+  @media (min-width: 768px) and (max-width: 1024px) {
+    .title {
+      margin-bottom: 10px;
+    }
+    .text {
+      width: 100%;
+    }
+  }
+</style>

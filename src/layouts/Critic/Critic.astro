@@ -12,11 +12,11 @@
                 <div class="row row-critic">
                     <div class="coloumn-name col-lg-5">
                         <p class="comment-form-comment">
-                            <label for="comment"
-                                >Nama<span class="star">*</span></label
-                            >
-                            <br />
-                            <input
+                            <label class="tab-name" for="comment"
+                                >Nama<span class="star">*</span>
+
+                                <br />
+                                <input
                                 class="form"
                                 id="author"
                                 name="author"
@@ -24,41 +24,45 @@
                                 value=""
                                 size="30"
                                 required="required"
+
                             />
+                                </label
+                            >
+
                         </p>
                     </div>
                     <div class="coloumn-email col-lg-5">
                         <p class="comment-form-comment">
-                            <label for="comment"
-                                >E-mail<span class="star">*</span></label
+                            <label class="tab-email" for="comment"
+                                >E-mail<span class="star">*</span><br />
+                                <input
+                                    class="form"
+                                    id="author"
+                                    name="author"
+                                    type="text"
+                                    value=""
+                                    size="30"
+                                    required="required"
+                                /></label
                             >
-                            <br />
-                            <input
-                                class="form"
-                                id="author"
-                                name="author"
-                                type="text"
-                                value=""
-                                size="30"
-                                required="required"
-                            />
+
                         </p>
                     </div>
                     <div class="coloumn-telp col-lg-5">
                         <p class="comment-form-comment">
-                            <label for="comment"
-                                >Nomor Telepon<span class="star">*</span></label
+                            <label class="tab-telp" for="comment"
+                                >Nomor Telepon<span class="star">*</span><br />
+                                <input
+                                    class="form"
+                                    id="author"
+                                    name="author"
+                                    type="text"
+                                    value=""
+                                    size="30"
+                                    required="required"
+                                /></label
                             >
-                            <br />
-                            <input
-                                class="form"
-                                id="author"
-                                name="author"
-                                type="text"
-                                value=""
-                                size="30"
-                                required="required"
-                            />
+
                         </p>
                     </div>
                 </div>
@@ -99,6 +103,8 @@
         text-align: center;
         font-size: 50px;
         color: #707070;
+        overflow-y: hidden;
+        overflow-x:hidden;
     }
     .line-3 {
         padding-left: 25%;
@@ -129,11 +135,23 @@
     }
     .coloumn-name {
         margin-bottom: 40px;
+        padding-right: 0;
+    }
+    .tab-name {
+        width: 100%;
     }
     .coloumn-email {
         padding: 0;
-        width: 420px;
         margin-left: auto;
+    }
+    .tab-email {
+        width: 100%;
+    }
+    .coloumn-telp {
+        padding-right: 0;
+    }
+    .tab-telp {
+        width: 100%;
     }
     .coloumn-comment {
         width: 100%;
@@ -158,6 +176,9 @@
     .star {
         color: red;
     }
+    .form {
+        width: 100%;
+    }
 
     @media only screen and (max-width: 1024px) {
         .line-3 {
@@ -177,11 +198,17 @@
             padding-right: 0;
             padding-left: 0;
         }
+        .tab-name {
+            width: 100%;
+        }
         /* End Name */
 
         /* Email */
         .coloumn-email {
             width: 45%;
+        }
+        .tab-email {
+            width: 100%;
         }
         /* End Email */
 
@@ -191,6 +218,9 @@
             padding-right: 0;
             padding-left: 0;
         }
+        .tab-telp {
+            width: 100%;
+        }
         /* End Telp */
 
         /* Form Comment */
@@ -198,7 +228,7 @@
             padding-left: 0;
         }
         /* End Form Comment */
-        
+
         .form-submit {
             padding-left: 0;
         }
@@ -208,11 +238,18 @@
         .row-critic {
             margin-bottom: 10px;
         }
+        .line-3 {
+        padding: 0 7% 0 6%;
+        color: #707070;
+    }
         .form {
             width: 100%;
         }
         .coloumn-name {
             margin-bottom: 35px;
+            width: 100%;
+        }
+        .tab-name {
             width: 100%;
         }
         .coloumn-email {
@@ -221,8 +258,14 @@
             margin-left: 0;
             padding-left: 0;
         }
+        .tab-email {
+            width: 100%;
+        }
         .coloumn-telp {
             margin-bottom: 35px;
+            width: 100%;
+        }
+        .tab-telp {
             width: 100%;
         }
         .comment-form-comment {
@@ -239,11 +282,20 @@
         .coloumn-name {
             margin-bottom: 25px;
         }
+        .tab-name {
+            width: 100%;
+        }
         .coloumn-email {
             margin-bottom: 25px;
         }
+        .tab-email {
+            width: 100%;
+        }
         .coloumn-telp {
             margin-bottom: 25px;
+        }
+        .tab-telp {
+            width: 100%;
         }
         .title-critic {
             font-size: 25px;

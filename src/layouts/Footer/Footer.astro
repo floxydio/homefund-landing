@@ -72,10 +72,11 @@
                 </form>
             </div>
             <div class="social-media-image">
-                <img class="socmed-image" src="../public/img/twitter-icon.png" alt="" />
-                <img class="socmed-image" src="../public/img/telegram-icon.png" alt="" />
-                <img class="socmed-image" src="../public/img/instagram-icon.png" alt="" />
-                <img class="socmed-image" src="../public/img/facebook-icon.png" alt="" />
+                <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+                <button class="socmed-image"><i class="fa fa-twitter"></i></button>
+                <button class="socmed-image"><i class="fa fa-telegram"></i></button>
+                <button class="socmed-image"><i class="fa fa-instagram"></i></button>
+                <button class="socmed-image"><i class="fa fa-facebook"></i></button>
             </div>
             <p class="link-container">
                 <a href="#" class="link-report">Report a vulnerability</a> 
@@ -270,7 +271,7 @@
         margin-top: 50px;
     }
     .form-sub {
-        display: block;
+        display: flex;
         width: 100%;
         white-space: 0;
     }
@@ -301,10 +302,19 @@
         padding-left: 55%;
     }
     .socmed-image {
+        background-color: #4169E1;
+        border: none;
+        color: white;
         right: 0;
-        width: 35px;
-        height: 35px;
         margin-left: 30px;
+        font-size: 34px;
+        height: 39px;
+        width: 39px;
+        padding: 0;
+    }
+    .fa {
+        width: 36px;
+        height: 36px;
     }
     /*  End Social Media Image */
 
@@ -330,13 +340,32 @@
             margin: 0;
         }
         .social-media-image {
-            padding-left: 51%;
-            width: 100%;
+            padding-left: 49%;
+            width: 99%;
             display: flex;
+            justify-content: space-between;
         }
         .socmed-image {
             width: 35px;
             height: 35px;
+            padding: 0;
+            margin: 0 0 0 0;
+            position: relative;
+        }
+        .fa {
+            position: absolute;
+            align-items: center;
+            margin: 0 0 0 0;
+            top: 0;
+            right: 5%;
+            overflow: hidden;
+        }
+
+        .text-sub {
+            font-size: 15px;
+        }
+        .submit-sub {
+            font-size: 15px;
         }
     }
 
@@ -355,6 +384,17 @@
         .right-tab {
             width: 100%;
         }
+        .social-media-image {
+            margin-top: 0;
+            padding-left: 55%;
+        }
+        .socmed-image {
+            font-size: 30px;
+        }
+        .fa {
+            width: 31px;
+            height: 31px;
+        }
         .sub-tab {
             margin-top: 0;
             width: 341px;
@@ -364,9 +404,11 @@
         }
         .text-sub {
             width: 57%;
+            font-size: 12px;
         }
         .submit-sub {
             width: 41%;
+            font-size: 12px;
         }
         .form-sub {
             width: 100%;
@@ -441,12 +483,23 @@
             font-weight: 400;
         }
 
+        .text-sub {
+            font-size: 12px;
+        }
+        .submit-sub {
+            font-size: 12px;
+        }
+
         .social-media-image {
+            margin-top: 18%;
             padding-left: 30%;
         }
         .socmed-image {
-            width: 28px;
-            height: 28px;
+            width: 31px;
+            height: 32px;
+        }
+        .fa {
+            font-size: 28px;
         }
 
         .link-report {

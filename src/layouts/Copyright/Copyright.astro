@@ -4,7 +4,14 @@
 <div class="row justify-content-center">
   <div class="col-10 py-5">
     <div class="row">
-      <p>© Copyright. HomeFunding ID . All rights reserved</p>
+      <p>
+        © Copyright <span id="yeartime"></span>. HomeFunding ID . All rights
+        reserved
+      </p>
+      <script>
+        var dt = new Date();
+        document.getElementById("yeartime").innerHTML = dt.getFullYear();
+      </script>
     </div>
     <div class="row">
       <p>

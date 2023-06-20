@@ -1,28 +1,225 @@
----
-
----
-<div class="jumbotron jumbotron-fluid">
-    <div class="container">
-      <div class="cont1 container">
-        <div class="title1">Hunian</div>
-          <h5 class="title2">Bagaimana cara mencari<br>hunian?</h5>
-            <p class="title3">Apakah anda masih bingung untuk mencari hunian yang baik untuk anda dan keluarga ? kami berikan tips & trick seputar cara mencari hunian yang cocok bagi anda dan keluarga, simak ulasan berikut ini</p>
-            <a href="#" class="link1">Lihat Penilaian Kami     →</a>
-        </div>
-      </div>
-  </div>
-  <div class="row">
-    <div class="col-lg-10">
-      <div class="row">
-        <div class="col-lg">
+<div class="row">
+  <div class="bg">
+    <!-- <img
+    src="../../../img/background.png"
+    class="img-fluid position-absolute"
+    alt="..."
+  /> -->
+    <div class="col d-flex flex-row-reverse">
+      <div class="card mt-5 me-5 overflow-hidden">
+        <div class="card-body">
+          <h5 class="card-title">Hunian</h5>
+          <p class="card-text subTitle">Bagaimana cara mencari hunian?</p>
+          <p class="card-text content">
+            Apakah anda masih bingung untuk mencari hunian yang baik untuk anda
+            dan keluarga ? kami berikan tips & trick seputar cara mencari hunian
+            yang cocok bagi anda dan keluarga, simak ulasan berikut ini
+          </p>
+          <div class="card-text penilaian text-end overflow-hidden">
+            <a class="text-decoration-none" href=""
+              >Lihat Penilaian Kami <i class="bi bi-arrow-right"></i></a
+            >
+          </div>
         </div>
       </div>
     </div>
-</div>
+  </div>
 
-<style>
-  .title2 {
-    overflow-x: hidden;
-    overflow-y: hidden;
-  }
-</style>
+  <style>
+    .bg {
+      background-image: url("img/background.png");
+      background-repeat: no-repeat;
+      background-size: cover;
+      width: 1440px;
+      height: 439px;
+      left: 0px;
+      top: 3892px;
+    }
+
+    .card {
+      position: absolute;
+      width: 456px;
+      height: 495px;
+      background: #ffffff;
+      box-shadow: 8px 16px 80px rgba(0, 0, 0, 0.05);
+      border-radius: 20px;
+    }
+
+    .card-title {
+      color: #707070;
+
+      position: absolute;
+      width: 382px;
+      height: 53px;
+      left: 37px;
+      top: 57px;
+
+      font-style: normal;
+      font-weight: 300;
+      font-size: 35px;
+      line-height: 52px;
+    }
+
+    .card-text.subTitle {
+      color: #707070;
+
+      position: absolute;
+      width: 382px;
+      height: 76px;
+      left: 37px;
+      top: 110px;
+
+      font-style: normal;
+      font-weight: 300;
+      font-size: 25px;
+      line-height: 38px;
+    }
+
+    .card-text.content {
+      position: absolute;
+      width: 382px;
+      height: 115px;
+      left: 43px;
+      top: 231px;
+
+      font-style: normal;
+      font-weight: 300;
+      font-size: 15px;
+      line-height: 22px;
+      color: #707070;
+    }
+
+    .card-text.penilaian {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      padding: 0px;
+      gap: 9px;
+
+      position: absolute;
+      width: 174.5px;
+      height: 23px;
+      left: 244px;
+      top: 416px;
+    }
+
+    @media screen and (max-width: 600px) {
+      .card {
+        position: absolute;
+        width: 366px;
+        height: 495px;
+        margin-right: 5%;
+
+        background: #ffffff;
+        box-shadow: 8px 16px 80px rgba(0, 0, 0, 0.05);
+        border-radius: 20px;
+      }
+
+      .card-title {
+        width: 297px;
+        height: 53px;
+
+        font-style: normal;
+        font-weight: 300;
+        font-size: 35px;
+        line-height: 52px;
+      }
+
+      .card-text.subTitle {
+        width: 297px;
+        height: 76px;
+
+        font-style: normal;
+        font-weight: 300;
+        font-size: 25px;
+        line-height: 38px;
+
+        color: #707070;
+      }
+
+      .card-text.content {
+        width: 283px;
+        height: 161px;
+
+        font-style: normal;
+        font-weight: 300;
+        font-size: 15px;
+        line-height: 22px;
+
+        color: #707070;
+      }
+
+      .card-text.penilaian {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 0px;
+        gap: 9px;
+
+        position: absolute;
+        width: 174.5px;
+        height: 23px;
+        left: 150px;
+        top: 416px;
+      }
+    }
+    @media screen and (max-width: 460px) {
+    /* @media screen and (max-width: 360px) { */
+      .card {
+        position: absolute;
+        width: 324px;
+        height: 458px;
+        left: 18px;
+        /* top: 5923px; */
+
+        background: #ffffff;
+        box-shadow: 8px 16px 80px rgba(0, 0, 0, 0.05);
+        border-radius: 20px;
+      }
+
+      .card-title {
+        width: 97px;
+        height: 38px;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 25px;
+        line-height: 38px;
+
+        color: #707070;
+      }
+
+      .card-text.subTitle {
+        width: 261px;
+        height: 60px;
+
+        font-style: normal;
+        font-weight: 300;
+        font-size: 20px;
+        line-height: 30px;
+
+        color: #707070;
+      }
+
+      .card-text.content {
+        width: 247px;
+        height: 140px;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 13px;
+        line-height: 20px;
+
+        color: #707070;
+      }
+
+      .card-text.penilaian {
+        width: 140px;
+        height: 20px;
+
+        font-style: normal;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 20px;
+      }
+    }
+  </style>
+</div>

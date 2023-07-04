@@ -1,5 +1,6 @@
 {
     "marquee.widgets.npm-stats.packageNames": [
         "helpless-halo"
-    ]
+    ],
+    "typescript.tsdk": "node_modules/typescript/lib"
 }

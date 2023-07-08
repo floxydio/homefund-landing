@@ -3,7 +3,7 @@
 <template>
   <nav class="navbar navbar-expand-lg bg-body-tertiary">
     <div class="container-fluid">
-      <a class="navbar-brand text-light" href="#">HomeFunding ID</a>
+      <a class="navbar-brand text-light" href="#">HomeFunding</a>
       <button
         class="navbar-toggler"
         type="button"

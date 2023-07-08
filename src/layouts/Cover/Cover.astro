@@ -8,7 +8,7 @@ import Header from "./Header";
       <div class="col-sm-6 col-lg-6">
         <h1 class="title text-white">Investasi Rumah dan Ruko</h1>
         <p class="text">
-          HomeFunding ID adalah aplikasi investasi berbasis crowd funding untuk
+          HomeFunding adalah aplikasi investasi berbasis crowd funding untuk
           investasi rumah dan bisnis untuk semua orang dengan start invest yang
           rendah serta periode imbal hasil yang cepat. Solusi terbaik untuk
           memulai investasi properti kamu.
@@ -18,16 +18,36 @@ import Header from "./Header";
             class="download btn btn-light rounded-pill space"
             type="submit"
             style="color: #4169e1"
+            data-bs-toggle="modal" data-bs-target="#exampleModal"
           >
             Download <i class="bi bi-google-play"></i>
           </button>
+          <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">HomeFunding APK</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body text-center">
+                  <a href="https://drive.google.com/file/d/1eqjM1JrUD891xU-3M0boUfw2Drx_I4Xo/view?usp=sharing" target="_blank" style="text-decoration: none;">Download APK Gdrive Link</a>
+                  <p style="margin-top: 20px;"><a href="https://www.virustotal.com/gui/file/5d72f50734a65c91fdf305c0292908ced7ce8e2ecd5588f4fb4db6913a8a6eef/detection" target="_blank" class="virus_total">Virus Total Check! Click Here</a></p>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                
+                </div>
+              </div>
+            </div>
+          </div>
+        
         </div>
       </div>
       <div class="col-sm-6 col-lg-6 mt-3 text-end">
         <img class="text-center" alt="imagecover" src="../../../img/vector.png" />
       </div>
     </div>
-    <div class="col column d-flex justify-content-center py-5">
+    <!-- <div class="col column d-flex justify-content-center py-5">
       <div class="column d-flex">
         <p class="text-white">Kontak Kami</p>
         <i class="bi bi-arrow-right text-white"></i>
@@ -40,7 +60,7 @@ import Header from "./Header";
         <p class="text-white">Cerita Kami</p>
         <i class="bi bi-arrow-right text-white"></i>
       </div>
-    </div>
+    </div> -->
   </div>
 </div>
 
@@ -70,6 +90,13 @@ import Header from "./Header";
     line-height: 22px;
     color: rgba(255, 255, 255, 0.7);
     font-style: normal;
+  }
+
+  .virus_total {
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
   }
 
   .download {

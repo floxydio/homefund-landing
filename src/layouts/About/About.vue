@@ -4,7 +4,7 @@
   <div class="row mt-5 justify-content-center">
     <div class="col-lg-5">
       <h1 class="title1">Apa itu</h1>
-      <h1 class="title2"><strong>HomeFunding ID</strong></h1>
+      <h1 class="title2"><strong>HomeFunding</strong></h1>
       <p>
         <strong>HOME FUNDING ID </strong>adalah aplikasi investasi rumah dengan dengan sistem Joint Venture, jual beli rumah dengan BEP & Keuntungan
         selama 3 – 6 Bulan. Satu-satunya investasi yang tidak menahan dana untuk

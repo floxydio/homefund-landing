@@ -10,11 +10,11 @@ import Advantage from "../layouts/Advantage/Advantage.astro";
 import Product from "../layouts/Product/Product.astro";
 import Article from "../layouts/Article/Article.astro";
 import Tips from "../layouts/Tips/Tips.astro";
-import Critic from '../layouts/Critic/Critic.astro';
-import Footer from '../layouts/Footer/Footer.astro';
-import Copyright from '../layouts/Copyright/Copyright.astro';
-import Notif from "../layouts/NoticeNotif/Notif.astro"
-import "../styles/global.css"
+import Critic from "../layouts/Critic/Critic.astro";
+import Footer from "../layouts/Footer/Footer.astro";
+import Copyright from "../layouts/Copyright/Copyright.astro";
+import Notif from "../layouts/NoticeNotif/Notif.astro";
+import "../styles/global.css";
 import BaseHead from "../components/BaseHead.astro";
 import KebijakanPrivasi from "./FooterPrivacy/KebijakanPrivasi.astro";
 ---
@@ -24,9 +24,9 @@ import KebijakanPrivasi from "./FooterPrivacy/KebijakanPrivasi.astro";
   <head>
     <!-- Required meta tags -->
     <meta charset="utf-8" />
-    <link rel="icon" type="image/x-icon" href=/img/logo.png">
+    <link rel="icon" type="image/x-icon" href='/img/logo.png"' />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>HomeFunding</title>
+    <title>HomeFunding | Investasi Property</title>
     <!-- Bootstrap CSS -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
@@ -42,26 +42,25 @@ import KebijakanPrivasi from "./FooterPrivacy/KebijakanPrivasi.astro";
     />
     <BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
   </head>
-	<body>
+  <body>
     <!-- <Notif /> -->
-			<Navbar />
-			<Cover />
-			<About />
-      <!--  -->
-			<VisiMisi />
-			<Advantage />
-			<Product />
-			<!-- <Article /> -->
-			<Tips />
-			<Critic />
-			<Footer />
-			<Copyright />
-			{/* <Metrics /> */}
+    <Navbar />
+    <Cover />
+    <About />
+    <!--  -->
+    <VisiMisi />
+    <Advantage />
+    <Product />
+    <!-- <Article /> -->
+    <Tips />
+    <Critic />
+    <Footer />
+    <Copyright />
+    {/* <Metrics /> */}
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-      crossorigin="anonymous"
-    ></script>
+      crossorigin="anonymous"></script>
   </body>
 </html>

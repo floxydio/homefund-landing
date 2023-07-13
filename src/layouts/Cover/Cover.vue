@@ -7,7 +7,7 @@
         <div class="col-lg-5 ">
           <h1 class="title">Investasi Rumah dan Ruko</h1>
           <p class="text">
-            HomeFunding ID adalah aplikasi investasi berbasis crowdfunding untuk investasi rumah dan bisnis untuk semua orang dengan start invest yang rendah serta periode imbal hasil yang cepat. Solusi terbaik untuk memulai investasi properti kamu.
+            HomeFunding adalah aplikasi investasi berbasis crowdfunding untuk investasi rumah dan bisnis untuk semua orang dengan start invest yang rendah serta periode imbal hasil yang cepat. Solusi terbaik untuk memulai investasi properti kamu.
           </p>
           <div class="col-lg-9">
               <button

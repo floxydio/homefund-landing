@@ -16,18 +16,63 @@ import Copyright from "../layouts/Copyright/Copyright.astro";
 import Notif from "../layouts/NoticeNotif/Notif.astro";
 import "../styles/global.css";
 import BaseHead from "../components/BaseHead.astro";
-import KebijakanPrivasi from "./FooterPrivacy/KebijakanPrivasi.astro";
+// import KebijakanPrivasi from "./FooterPrivacy/KebijakanPrivasi.astro";
+import { SEO } from "astro-seo";
+
 ---
 
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8" />
-    <link rel="icon" type="image/x-icon" href='/img/logo.png"' />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>HomeFunding | Investasi Property</title>
-    <!-- Bootstrap CSS -->
+    <SEO
+    title="HomeFunding | Investasi Property"
+    description="HomeFunding adalah platform investasi properti yang memungkinkan kamu untuk berinvestasi di properti dengan modal yang terjangkau."
+    extend={{
+      // extending the default link tags
+      link: [{ rel: "icon", href: "/img/Logo.png"}],
+      meta: [
+       {
+          name: "keywords",
+          content:
+            "HomeFunding, Investasi Properti, Investasi, Properti, Investasi Properti Online, Investasi Properti Syariah, Investasi Properti Tanpa Modal, Investasi Properti Mudah, Investasi Properti Murah, Investasi Properti Terpercaya, Investasi Properti Aman, Investasi Properti Halal, Investasi Properti Syariah Online, Investasi Properti Syariah Mudah, Investasi Properti Syariah Murah, Investasi Properti Syariah Terpercaya, Investasi Properti Syariah Aman, Investasi Properti Syariah Halal, Investasi Properti Syariah Tanpa Modal, Investasi Properti Syariah Online Terpercaya, Investasi Properti Syariah Online Aman, Investasi Properti Syariah Online Halal, Investasi Properti Syariah Online Tanpa Modal, Investasi Properti Syariah Online Mudah, Investasi Properti Syariah Online Murah, Investasi Properti Syariah Online Terpercaya, Investasi Properti Syariah Online Aman, Investasi Properti Syariah Online Halal, Investasi Properti Syariah Online Tanpa Modal, Investasi Properti Syariah Online Mudah, Investasi Properti Syariah Online Murah",
+        },
+        {
+          name: "author",
+          content: "HomeFunding",
+        },
+        {
+          name: "description",
+          content:
+            "HomeFunding adalah platform investasi properti yang memungkinkan kamu untuk berinvestasi di properti dengan modal yang terjangkau.",
+        },
+        {
+          name: "og:title",
+          content: "HomeFunding | Investasi Property",
+        },
+        {
+          name: "og:description",
+          content:
+            "HomeFunding adalah platform investasi properti yang memungkinkan kamu untuk berinvestasi di properti dengan modal yang terjangkau.",
+        },
+        {
+          name: "og:image",
+          content: "/img/logo.png",
+        },
+        {
+          name: "og:url",
+          content: "https://homefunding.id",
+        },
+        {
+          name: "og:site_name",
+          content: "HomeFunding",
+        },
+        {
+          name: "twitter:card",
+       }
+      ],
+    }}
+  />
+
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -40,7 +85,6 @@ import KebijakanPrivasi from "./FooterPrivacy/KebijakanPrivasi.astro";
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css"
     />
-    <BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
   </head>
   <body>
     <!-- <Notif /> -->

@@ -28,5 +28,8 @@
     "react-dom": "^18.2.0",
     "typed.js": "^2.0.16",
     "vue": "^3.2.47"
+  },
+  "devDependencies": {
+    "@vite-pwa/astro": "^0.1.1"
   }
 }
